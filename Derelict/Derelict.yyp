@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "bcc1bd5a-2010-4066-995f-3dcf32b8a9eb",
+            "Value": {
+                "id": "d1eaf724-27e3-4224-a717-d0078f42a03c",
+                "resourcePath": "sprites\\dickballs\\dickballs.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "93f88b48-b5ca-4d66-b68f-44d089d93e2e",
