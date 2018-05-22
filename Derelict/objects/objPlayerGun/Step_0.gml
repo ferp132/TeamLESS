@@ -2,7 +2,7 @@
 dir = point_direction(x, y, mouse_x, mouse_y);
 image_angle = dir;
 
-if (dir < 90 && dir >= 0) || (dir > 270 && dir <= 359)
+if (dir < 90 && dir > 0) || (dir > 270 && dir <= 359) || (dir == 0)
 {
     image_xscale = 1;
     image_yscale = 1;
