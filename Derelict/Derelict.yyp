@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "47c741ba-de48-40fc-9a93-7fac06fcf6f2",
+            "Value": {
+                "id": "f69d2d61-9788-40e1-91cc-b84203ab9e57",
+                "resourcePath": "objects\\objEnemyControl\\objEnemyControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "587a93fa-df62-46bd-aa48-9b5cf85f314b",
             "Value": {
                 "id": "8e68e576-ba81-4016-a6dc-72c91029db2e",
