@@ -38,5 +38,5 @@ camera_set_view_size(view_camera[0], 640, 480);
 
 //Setting up object target information
 camera_set_view_target(view_camera[0], objPlayer);
-camera_set_view_speed(view_camera[0], -1, -1);
+camera_set_view_speed(view_camera[0], -1, - 1);
 camera_set_view_border(view_camera[0], 32, 32);

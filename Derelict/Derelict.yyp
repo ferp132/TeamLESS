@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02f8b610-bb4d-46ab-863a-c6afb744f256",
+            "Value": {
+                "id": "23e4293e-86e5-429d-aa58-2389c0a51a68",
+                "resourcePath": "objects\\objTempMiniBoss\\objTempMiniBoss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "07b7aabc-4de6-42aa-88e0-3c4375ae87a4",
             "Value": {
                 "id": "9196ab0c-c5d2-4140-a4f6-7906b6cacfb5",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "4b00e4ac-61da-47d6-8343-3478baae0505",
+            "Value": {
+                "id": "51fa8a61-accf-4295-8827-ae4368f6efd2",
+                "resourcePath": "objects\\objMod\\objMod.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "587a93fa-df62-46bd-aa48-9b5cf85f314b",
             "Value": {
                 "id": "8e68e576-ba81-4016-a6dc-72c91029db2e",
@@ -228,6 +244,14 @@
                 "id": "7e4d4d1c-338b-420c-bd27-4b47939c5c24",
                 "resourcePath": "views\\82f2c7ac-a8ba-4d25-819f-424aacffd599.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "86bd7c4c-3f7d-4402-afc6-e63ad1bccd07",
+            "Value": {
+                "id": "c95bb95d-1a6a-42af-a1e3-551ee27dc277",
+                "resourcePath": "sprites\\sprTempMiniBoss\\sprTempMiniBoss.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

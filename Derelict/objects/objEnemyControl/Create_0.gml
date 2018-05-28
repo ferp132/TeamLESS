@@ -5,4 +5,4 @@ canSpawn = true;
 
 //Scoring
 hiddenScore = 0;
-
+bossWave = false;

@@ -1,6 +1,6 @@
 randomize();
 randX = irandom_range(x-200, x+200);
-randY = irandom_range(y-200, y+200);
+randY = irandom_range(y-200, y+200); 
 chosenEnemy = choose(bat_nme);
 
 if (canSpawn)
@@ -27,7 +27,13 @@ if (canSpawn)
     }
 }
 
-if (!canSpawn)
+if (hiddenScore >= 500)
+{
+	instance_create_layer(x, y, 0, objTempMiniBoss);
+	bossWave = true;
+}
+
+if (!canSpawn && !bossWave)
 {
     spawnDelay++;
     if (spawnDelay == spawnRate)
