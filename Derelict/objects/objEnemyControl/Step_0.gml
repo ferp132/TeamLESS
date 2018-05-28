@@ -1,3 +1,10 @@
+// After miniboss has been spawned and killed
+if (constWave)
+{
+	spawnRate = 14;
+}
+
+
 randomize();
 randX = irandom_range(x-200, x+200);
 randY = irandom_range(y-200, y+200); 
