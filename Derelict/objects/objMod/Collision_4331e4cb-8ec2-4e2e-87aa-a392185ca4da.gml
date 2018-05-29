@@ -11,3 +11,11 @@ if (keyboard_check_pressed(ord("E")))
 	global.armourItem = typeMod;
 	instance_destroy();
 }
+
+if (typeMod == dashh)
+{
+	with (other)
+	{
+		
+	}
+}
