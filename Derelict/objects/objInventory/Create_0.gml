@@ -1,6 +1,6 @@
 /// @description Initialise Variables
 /*
-	-Inventory Item/Mod indexes-
+	-Inventory Item/Mod indexes-	-sprMods is the index for each and every mod in the game-
 	0 = Dash
 	1 = Double dash
 	2 = IDK What this is
@@ -24,6 +24,7 @@ for (i = 0; i < invCol; i++)			//These for loops set all inventory slots to be e
 		global.inventory[i, j] = -1;
 	}
 }
+
 
 offset = 4;	//The offset (in pixels) for the inventory slots borders to be from eachother
 
