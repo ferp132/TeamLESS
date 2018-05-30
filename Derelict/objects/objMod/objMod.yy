@@ -5,26 +5,6 @@
     "name": "objMod",
     "eventList": [
         {
-            "id": "4331e4cb-8ec2-4e2e-87aa-a392185ca4da",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "c5e6d237-3b3d-4875-b2e2-423f01673435",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "4b00e4ac-61da-47d6-8343-3478baae0505"
-        },
-        {
-            "id": "5c193a35-3845-4bb5-99b3-20993c6fcd49",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "4b00e4ac-61da-47d6-8343-3478baae0505"
-        },
-        {
             "id": "9b32b4fb-2a32-4f5b-8347-ee1192c0600f",
             "modelName": "GMEvent",
             "mvc": "1.0",

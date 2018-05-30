@@ -98,7 +98,7 @@
             "Key": "2c140f89-584a-4413-a85e-655a87674d86",
             "Value": {
                 "id": "eb678f9f-f3cd-4c18-bc52-f3f715c27aaf",
-                "resourcePath": "objects\\inventory\\inventory.yy",
+                "resourcePath": "objects\\objInventory\\objInventory.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -114,7 +114,7 @@
             "Key": "2f5fb32d-05d6-416c-9758-3635f4f44ac2",
             "Value": {
                 "id": "03b4ba12-6533-465f-905b-6d8d3eefc8c9",
-                "resourcePath": "sprites\\inveborder\\inveborder.yy",
+                "resourcePath": "sprites\\sprInventoryBorder\\sprInventoryBorder.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -314,7 +314,7 @@
             "Key": "9569b185-4325-44d1-8ee0-9af55fe428d3",
             "Value": {
                 "id": "b69d77b7-884a-4b76-bf10-4f57503441a4",
-                "resourcePath": "sprites\\spr_mods\\spr_mods.yy",
+                "resourcePath": "sprites\\sprMods\\sprMods.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -396,14 +396,6 @@
                 "id": "d1eaf724-27e3-4224-a717-d0078f42a03c",
                 "resourcePath": "sprites\\dickballs\\dickballs.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c342a55e-42d5-4a24-a6e6-5aa19895cb8a",
-            "Value": {
-                "id": "f43753b8-59d5-46e4-b384-7e5647517315",
-                "resourcePath": "objects\\dash\\dash.yy",
-                "resourceType": "GMObject"
             }
         },
         {
