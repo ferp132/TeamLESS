@@ -6,7 +6,9 @@
     "children": [
         "00be3f4f-ca3a-4311-98dc-aee7ea9a1775",
         "67880a7c-02a4-473f-981a-ef0c23111476",
-        "42b23e08-10ab-4d40-84d1-4e4230b20be8"
+        "42b23e08-10ab-4d40-84d1-4e4230b20be8",
+        "d9cea003-9c67-4028-9501-1226751a2a7e",
+        "dc7f1afd-1375-4af9-a4f0-5174585180bf"
     ],
     "filterType": "GMScript",
     "folderName": "inventory",

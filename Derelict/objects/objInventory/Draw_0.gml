@@ -27,10 +27,14 @@ if (showInv)
 		{
 			draw_sprite(sprInventoryBorder, 0, x1+24+(offset*i) + (i*40), y1+24+(offset*j)+ (j*40));
 			
-			if (global.inventory[i, j] != -1)	//If an inventory slot is not empty, draw that sprite
+			/*if (global.inventory[i, j] != -1)	//If an inventory slot is not empty, draw that sprite
 			{
-				draw_sprite(sprMods, global.inventory[i, j], x1+24+(offset*i) + (i*40), y1+24+(offset*j)+ (j*40));
-			}
+				//draw_sprite(sprMods, global.inventory[i, j], x1+24+(offset*i) + (i*40), y1+24+(offset*j)+ (j*40));
+				
+				
+			}*/
+			button[i, j].x = x1+24+(offset*i) + (i*40);
+			button[i, j].y = y1+24+(offset*j)+ (j*40);
 		}
 	}
 }

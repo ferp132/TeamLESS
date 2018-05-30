@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "77c0bd14-20a1-4e4c-87d1-1f93e810dbe7",
+            "Value": {
+                "id": "d77f353d-e0b5-4f56-a4c6-b27c93df6d3f",
+                "resourcePath": "objects\\objInventorySlot\\objInventorySlot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "797f5776-ae30-48ff-afe1-8ee007b31097",
             "Value": {
                 "id": "8cc6a836-7735-48a6-82f1-4681515d316e",
@@ -375,6 +383,14 @@
             }
         },
         {
+            "Key": "b3bde6f2-2224-45ec-95bd-2d0043d334ae",
+            "Value": {
+                "id": "c570a973-5590-4f3c-aeaf-c8a794686d6d",
+                "resourcePath": "objects\\objCursorMod\\objCursorMod.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b74e9f54-8398-421a-98b5-2e6eb633d582",
             "Value": {
                 "id": "252153d4-5fea-468c-aa6f-8608c1f99d9a",
@@ -431,6 +447,22 @@
             }
         },
         {
+            "Key": "d9cea003-9c67-4028-9501-1226751a2a7e",
+            "Value": {
+                "id": "4354d46d-0b5f-4d8c-8693-6b445109e2d4",
+                "resourcePath": "scripts\\scrSlotModPickup\\scrSlotModPickup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dc7f1afd-1375-4af9-a4f0-5174585180bf",
+            "Value": {
+                "id": "87958a81-664b-4d1a-ba98-61f610e1aaa8",
+                "resourcePath": "scripts\\scrSlotModRemove\\scrSlotModRemove.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e5fedd3f-e48b-4e3d-a94f-6cb4bef5b4bf",
             "Value": {
                 "id": "25817c8d-3353-4169-a763-31abe663bc48",
@@ -471,6 +503,14 @@
             }
         },
         {
+            "Key": "f52fe3c9-1304-4529-a8fb-a59fe842f062",
+            "Value": {
+                "id": "cbd5c67e-e9ef-4751-b084-87e1645ce087",
+                "resourcePath": "views\\f52fe3c9-1304-4529-a8fb-a59fe842f062.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f8983ef6-bb02-4c69-ac7c-5515854dfb03",
             "Value": {
                 "id": "669afe83-d465-4097-8cb8-d2d46d71b798",
@@ -485,7 +525,9 @@
         "587a93fa-df62-46bd-aa48-9b5cf85f314b",
         "00be3f4f-ca3a-4311-98dc-aee7ea9a1775",
         "67880a7c-02a4-473f-981a-ef0c23111476",
-        "42b23e08-10ab-4d40-84d1-4e4230b20be8"
+        "42b23e08-10ab-4d40-84d1-4e4230b20be8",
+        "d9cea003-9c67-4028-9501-1226751a2a7e",
+        "dc7f1afd-1375-4af9-a4f0-5174585180bf"
     ],
     "tutorial": ""
 }

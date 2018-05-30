@@ -22,8 +22,24 @@ for (i = 0; i < invCol; i++)			//These for loops set all inventory slots to be e
 	for (j = 0; j < invRow; j++)
 	{
 		global.inventory[i, j] = -1;
+		button[i, j] = instance_create_depth(0,0,-1001, objInventorySlot);
+		button[i, j].slotX = i; button[i, j].slotY = j;
+		
 	}
 }
+globalvar cursorMod;
+cursorMod = -1;
+instance_create_depth(0,0,-1002, objCursorMod);
+
+scrModPickup(1);
+scrModPickup(1);
+scrModPickup(1);
+scrModPickup(1);
+scrModPickup(1);
+scrModPickup(1);
+scrModPickup(1);
+scrModPickup(1);
+scrModPickup(1);
 
 
 offset = 4;	//The offset (in pixels) for the inventory slots borders to be from eachother
