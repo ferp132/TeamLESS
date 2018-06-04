@@ -32,4 +32,4 @@ if (place_meeting(x, y+1, objCollision))
     jumpSpeed = moveJump * -jumpHeight;
 }
 
-scrCollide_Move();
+scrCollide_Move(objPlayer);

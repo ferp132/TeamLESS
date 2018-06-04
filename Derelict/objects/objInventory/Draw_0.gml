@@ -9,15 +9,15 @@ if (showInv)
 	
 	//Draw the inventory
 	var x1, x2, y1, y2;	//Coordinates for the inventory square to be drawn
-	x1 = camera_get_view_x(view_camera[0])+centreX-(inventoryXSize/2 - (offset/2));
+	x1 = camera_get_view_x(view_camera[0])+centreX-(inventoryXSize/2 - (offset/2)) + 90;
 	//x1 = (view_xport[0]/2)-220;
 	x2 = (x1 + inventoryXSize) + offset;
 	y1 = camera_get_view_y(view_camera[0])+centreY-(inventoryYSize/2 - (offset/2));
 	//y1 = (view_yport[0]/2)-105;
 	y2 = (y1 + inventoryYSize) + offset;
 	
-	draw_set_color(c_gray);				//Inventory square will be black
-	draw_set_alpha(0.5);					//but somewhat transparent
+	draw_set_color(c_gray);					//Inventory square colour
+	draw_set_alpha(0.5);					//Transparency
 	draw_rectangle(x1, y1, x2, y2, false);	//Drawing the rectangle
 	
 	draw_set_alpha(1);
@@ -29,7 +29,7 @@ if (showInv)
 			
 			/*if (global.inventory[i, j] != -1)	//If an inventory slot is not empty, draw that sprite
 			{
-				//draw_sprite(sprMods, global.inventory[i, j], x1+24+(offset*i) + (i*40), y1+24+(offset*j)+ (j*40));
+				draw_sprite(sprMods, global.inventory[i, j], x1+24+(offset*i) + (i*40), y1+24+(offset*j)+ (j*40));
 				
 				
 			}*/

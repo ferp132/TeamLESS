@@ -1,21 +1,23 @@
+/// scrCollide_Move(objectToMove)
+// This script takes in an object that you are checking collisions for if they have the required variables
 //Horizontal collision
-if (place_meeting(x+currentSpeed, y, objCollision))
+if (place_meeting(argument0.x+argument0.currentSpeed, argument0.y, objCollision))
 {
-    while (!place_meeting(x+sign(currentSpeed), y, objCollision))
+    while (!place_meeting(argument0.x+sign(argument0.currentSpeed), argument0.y, objCollision))
     {
-        x += sign(currentSpeed);
+        argument0.x += sign(argument0.currentSpeed);
     }
-    currentSpeed = 0;
+    argument0.currentSpeed = 0;
 }
-x += currentSpeed;
+argument0.x += argument0.currentSpeed;
 
 //Vertical collision
-if (place_meeting(x, y+jumpSpeed, objCollision))
+if (place_meeting(argument0.x, argument0.y+argument0.jumpSpeed, objCollision))
 {
-    while (!place_meeting(x, y+sign(jumpSpeed), objCollision))
+    while (!place_meeting(argument0.x, argument0.y+sign(argument0.jumpSpeed), objCollision))
     {
-        y += sign(jumpSpeed);
+        argument0.y += sign(argument0.jumpSpeed);
     }
-    jumpSpeed = 0;
+    argument0.jumpSpeed = 0;
 }
-y += jumpSpeed;
+argument0.y += argument0.jumpSpeed;

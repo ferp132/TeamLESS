@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0c5fd73b-0dba-4f39-8e58-84409f6776c6",
+            "Value": {
+                "id": "34126003-695f-4566-b8a5-b6277faf6c83",
+                "resourcePath": "views\\0c5fd73b-0dba-4f39-8e58-84409f6776c6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0c7a7aad-9b0f-4a4d-a25f-627997e01150",
             "Value": {
                 "id": "019ab38d-f04c-4155-b802-027d233eebef",
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "57651420-902b-40a1-aefe-c43429f0fc5c",
+            "Value": {
+                "id": "6840513d-af27-432a-94fd-027017734031",
+                "resourcePath": "scripts\\scrDash\\scrDash.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "587a93fa-df62-46bd-aa48-9b5cf85f314b",
             "Value": {
                 "id": "8e68e576-ba81-4016-a6dc-72c91029db2e",
@@ -260,6 +276,14 @@
                 "id": "c95bb95d-1a6a-42af-a1e3-551ee27dc277",
                 "resourcePath": "sprites\\sprTempMiniBoss\\sprTempMiniBoss.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8843651d-6d92-4666-89cf-716fdc542053",
+            "Value": {
+                "id": "0a2d5010-d8c2-4cfc-9a10-9de694a4a183",
+                "resourcePath": "objects\\objModStats\\objModStats.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -527,7 +551,8 @@
         "67880a7c-02a4-473f-981a-ef0c23111476",
         "42b23e08-10ab-4d40-84d1-4e4230b20be8",
         "d9cea003-9c67-4028-9501-1226751a2a7e",
-        "dc7f1afd-1375-4af9-a4f0-5174585180bf"
+        "dc7f1afd-1375-4af9-a4f0-5174585180bf",
+        "57651420-902b-40a1-aefe-c43429f0fc5c"
     ],
     "tutorial": ""
 }

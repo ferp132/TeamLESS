@@ -15,7 +15,7 @@ showInv = false;
 
 globalvar invRow, invCol;	//How many item slots the inventory will have. (Row * Column)
 invRow = 5;		//Y value for inventory Array
-invCol = 10;	//X value for inventory Array
+invCol = 8;	//X value for inventory Array
 
 for (i = 0; i < invCol; i++)			//These for loops set all inventory slots to be empty
 {										//When inventory is created
@@ -31,18 +31,10 @@ globalvar cursorMod;
 cursorMod = -1;
 instance_create_depth(0,0,-1002, objCursorMod);
 
-scrModPickup(1);
-scrModPickup(1);
-scrModPickup(1);
-scrModPickup(1);
-scrModPickup(1);
-scrModPickup(1);
-scrModPickup(1);
-scrModPickup(1);
-scrModPickup(1);
+scrModPickup(0);
 
 
-offset = 4;	//The offset (in pixels) for the inventory slots borders to be from eachother
+offset = 3;	//The offset (in pixels) for the inventory slots borders to be from eachother
 
 //How big the rectangle for the inventory should be drawn.
 //Updated to change size depending on the inventory size and offset.
