@@ -9,12 +9,11 @@ dashEffect.image_index = image_index;
 dashEffect.image_xscale = image_xscale;*/
 
 scrCollide_Move(objPlayer);
-objModStats.dashSpeed = objModStats.dashSpeed + objModStats.dashDistance;
+objModStats.dashDistance += objModStats.dashSpeed;
     
-if (objModStats.dashSpeed >= objModStats.maxDashDistance)
+if (objModStats.dashDistance >= objModStats.maxDashDistance)
 {
-    //jumpSpeed = jumpSpeed/4;
-    objModStats.countDown = objModStats.dashCD;
+	objModStats.dashCountDown = objModStats.dashCD;
+	objModStats.dashDistance = 0;
+	objModStats.isDashing = 0;
 }
-
-///==== Make the dash work properly. It technically works as intended, but I need it to work better====///

@@ -14,8 +14,8 @@ globalvar showInv;
 showInv = false;
 
 globalvar invRow, invCol;	//How many item slots the inventory will have. (Row * Column)
-invRow = 5;		//Y value for inventory Array
-invCol = 8;	//X value for inventory Array
+invRow = 5;					//Y value for inventory Array
+invCol = 8;					//X value for inventory Array
 
 for (i = 0; i < invCol; i++)			//These for loops set all inventory slots to be empty
 {										//When inventory is created

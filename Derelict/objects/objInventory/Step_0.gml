@@ -14,12 +14,19 @@ if (keyboard_check_pressed(vk_tab))
 
 
 // Checks whether or not left shift has been pressed
-if (keyboard_check_pressed(vk_lshift))
+if (keyboard_check_pressed(vk_lshift))  //&& (objModStats.dashCountDown == 0)
 {
-	// Checks for the dash mod in the inventory
-	if (scrModCheck(0))
+	// Checks for the dash or double dash mod in the inventory
+	if (scrModCheck(1) && (objModStats.currentDash != 0))
 	{
 		// If returns true, dashes
-		scrDash();
+		objModStats.isDashing = 1;
+		objModStats.currentDash--;
+		//scrDash();
+	}
+	else if (scrModCheck(0) && (objModStats.dashCountDown == 0))
+	{
+		objModStats.isDashing = 1;
+		//objModStats.currentDash--;
 	}
 }
