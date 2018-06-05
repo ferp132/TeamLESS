@@ -1,4 +1,5 @@
-/// @description ==== Mod stats ====
+/// @description ==== Initialising Mod Stats ====
+
 // == Dash (index = 0) & Double Dash (index = 1)
 dashSpeed = 20;				// How fast the player dashes
 dashDistance = 0;			// Distance the player has dashed
@@ -11,6 +12,6 @@ isDashing = 0;				// Whether the player is currently dashing right now or not
 
 
 // == Energy Shield (index = )
-shieldActive = 1;			// Whether the shield is active or not
+shieldActive = 0;			// Whether the shield is active or not
 shieldCD = room_speed*5;	// Cooldown
-shieldCountDown = 0;		// Used to countdown for when the shield is ready next
+shieldCountDown = 0;		// Used to count down for when the shield is ready next

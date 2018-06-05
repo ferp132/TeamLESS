@@ -2,6 +2,8 @@
 // You can write your code in this editor
 x = objPlayer.x+50;
 y = objPlayer.y;
+
+//====== Dash Mods ========
 if (scrModCheck(1))
 {
 	maxDashes = 1;
@@ -24,4 +26,19 @@ if (dashCountDown != 0)
 if (dashCountDown == 0) //&& (currentDash == 0)
 {
 	currentDash = maxDashes;
+}
+
+
+//====== Shield Mods ======
+if (keyboard_check_pressed(ord("B")))
+{
+	if (shieldActive)
+	{
+		shieldActive = 0;
+	}
+	else
+	{
+		shieldActive = 1;
+		objEnergyShieldEffect.image_alpha = 1;
+	}
 }

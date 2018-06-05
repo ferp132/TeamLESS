@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "3ea81cbf-8f33-4c2f-907f-113118843a3b",
+            "Value": {
+                "id": "8b319538-7dd6-4a8f-9e11-faf1e8533b69",
+                "resourcePath": "objects\\objEnergyShieldEffect\\objEnergyShieldEffect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "42b23e08-10ab-4d40-84d1-4e4230b20be8",
             "Value": {
                 "id": "e8350e1d-5fff-41f4-9c62-df5eb8467284",
@@ -172,6 +180,14 @@
                 "id": "51fa8a61-accf-4295-8827-ae4368f6efd2",
                 "resourcePath": "objects\\objMod\\objMod.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "55bf57ca-6e6d-45ae-b181-755374fd88b4",
+            "Value": {
+                "id": "734813b1-48c6-4c36-859c-6512f7a41c7d",
+                "resourcePath": "sprites\\sprEnergyShieldEffect\\sprEnergyShieldEffect.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

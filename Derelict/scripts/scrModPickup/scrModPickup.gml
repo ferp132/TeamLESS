@@ -1,3 +1,4 @@
+// 
 //This script adds a mod to the inventory
 for (j = 0; j < invRow; j++)				//'For' loops iterate through inventory
 {
