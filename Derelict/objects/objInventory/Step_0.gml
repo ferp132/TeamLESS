@@ -17,14 +17,14 @@ if (keyboard_check_pressed(vk_tab))
 if (keyboard_check_pressed(vk_lshift))  //&& (objModStats.dashCountDown == 0)
 {
 	// Checks for the dash or double dash mod in the inventory
-	if (scrModCheck(1) && (objModStats.currentDash != 0))
+	if (scrEquipModCheck(1) && (objModStats.currentDash != 0))
 	{
 		// If returns true, dashes
 		objModStats.isDashing = 1;
 		objModStats.currentDash--;
 		//scrDash();
 	}
-	else if (scrModCheck(0) && (objModStats.dashCountDown == 0))
+	else if (scrEquipModCheck(0) && (objModStats.dashCountDown == 0))
 	{
 		objModStats.isDashing = 1;
 		//objModStats.currentDash--;

@@ -20,9 +20,13 @@ if (canSpawn)
         }          
         else
         {
-            if (position_meeting(randX, randY+49, objCollision))
+            if (position_meeting(randX, randY, objCollision))
             //if (position_meeting(randX, randY, objWall))
             {
+				while (position_meeting(randX, randY-20, objCollision))
+				{
+					randY--;
+				}
                 var inst = instance_create_layer(randX, randY, 0, chosenEnemy);
                 //inst.y -= 17;
             

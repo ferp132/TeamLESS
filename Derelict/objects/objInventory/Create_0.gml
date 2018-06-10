@@ -3,8 +3,8 @@
 	-Inventory Item/Mod indexes-	-sprMods is the index for each and every mod in the game-
 	0 = Dash
 	1 = Double dash
-	2 = IDK What this is
-	3 = IDK what this is either. Honestly, they don't look like anything.
+	2 = Energy Shield
+	3 = IDK
 */
 //Setting depth to abritrarily low value so inventory shows over all other objects
 depth = -1000;
@@ -41,3 +41,21 @@ offset = 3;	//The offset (in pixels) for the inventory slots borders to be from 
 //If you want to change it, change the variables invRow, invCol, and offset
 inventoryXSize = (objInventory.sprite_width * invCol) + (offset * invCol);
 inventoryYSize = (objInventory.sprite_height * invRow) + (offset * invRow);
+
+// Equipped mods inventory
+globalvar equipInvRow, equipInvCol;
+equipInvRow = 4;
+equipInvCol = 2;
+
+for (k = 0; k < equipInvCol; k++)
+{
+	for (l = 0; l < equipInvRow; l++)
+	{
+		global.equipInventory[k, l] = -1;
+		eqButton[k, l] = instance_create_depth(0,0,-1001, objEquipInventorySlot);
+		eqButton[k, l].slotX = k; eqButton[k, l].slotY = l;
+	}
+}
+
+equipInvXSize = (objInventory.sprite_width * equipInvCol) + (offset * equipInvCol);
+equipInvYSize = (objInventory.sprite_height * equipInvRow) + (offset * equipInvRow);

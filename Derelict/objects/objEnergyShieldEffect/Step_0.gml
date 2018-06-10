@@ -1,9 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (object_exists(objPlayer))
+if (instance_exists(objPlayer))
 {
 	x = objPlayer.x;
 	y = objPlayer.y;
+}
+
+if (place_meeting(x, y, objEnemyProjectileParent)) && (scrEquipModCheck(2))
+{
+	objModStats.shieldActive = 0;
 }
 
 if (objModStats.shieldActive == 0)

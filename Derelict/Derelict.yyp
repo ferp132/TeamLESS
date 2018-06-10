@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1fb0a11a-cea6-4987-abf6-5a57e4ec2a21",
+            "Value": {
+                "id": "3248eb2d-81b1-4fcf-ae79-3c76f784f530",
+                "resourcePath": "scripts\\scrEquipSlotModRemove\\scrEquipSlotModRemove.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "27778b71-ed0f-448c-9baa-d08bb080d94a",
             "Value": {
                 "id": "6952765f-79b1-4e20-89b8-60e9e50b27a5",
@@ -391,6 +399,14 @@
             }
         },
         {
+            "Key": "a724fba2-7467-4a39-92a0-e73f20f9fb92",
+            "Value": {
+                "id": "a34807f5-ba46-408f-8c54-307613c4bac4",
+                "resourcePath": "objects\\objEnemyProjectileParent\\objEnemyProjectileParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "d3b286b5-242a-43ee-b7a9-2e8125eae86f",
@@ -436,6 +452,14 @@
                 "id": "252153d4-5fea-468c-aa6f-8608c1f99d9a",
                 "resourcePath": "views\\b74e9f54-8398-421a-98b5-2e6eb633d582.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bbacf715-84fc-424c-bdbe-eb73b4b13fa8",
+            "Value": {
+                "id": "64a5452f-9216-42ff-855d-89e3e56c59f0",
+                "resourcePath": "scripts\\scrEquipSlotModPickup\\scrEquipSlotModPickup.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -511,11 +535,27 @@
             }
         },
         {
+            "Key": "e7a8dbe9-b7f3-41e2-b91c-27a0058c6a7f",
+            "Value": {
+                "id": "97ca84ea-caf0-4701-868b-c628f983dfc2",
+                "resourcePath": "scripts\\scrEquipModCheck\\scrEquipModCheck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e7fe6d58-1473-4394-a9a2-6d6750d3e0b9",
             "Value": {
                 "id": "6687a983-4de0-4521-9465-d2756311cfbe",
                 "resourcePath": "sprites\\dash_spr\\dash_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ebd2c9e9-429e-4e90-8118-e052132adf96",
+            "Value": {
+                "id": "1d1082d8-a5f2-47fa-934a-a836052748dd",
+                "resourcePath": "objects\\objEquipInventorySlot\\objEquipInventorySlot.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -566,8 +606,11 @@
         "00be3f4f-ca3a-4311-98dc-aee7ea9a1775",
         "67880a7c-02a4-473f-981a-ef0c23111476",
         "42b23e08-10ab-4d40-84d1-4e4230b20be8",
+        "e7a8dbe9-b7f3-41e2-b91c-27a0058c6a7f",
         "d9cea003-9c67-4028-9501-1226751a2a7e",
+        "bbacf715-84fc-424c-bdbe-eb73b4b13fa8",
         "dc7f1afd-1375-4af9-a4f0-5174585180bf",
+        "1fb0a11a-cea6-4987-abf6-5a57e4ec2a21",
         "57651420-902b-40a1-aefe-c43429f0fc5c"
     ],
     "tutorial": ""

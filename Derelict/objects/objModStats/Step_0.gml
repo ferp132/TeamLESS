@@ -4,11 +4,11 @@ x = objPlayer.x+50;
 y = objPlayer.y;
 
 //====== Dash Mods ========
-if (scrModCheck(1))
+if (scrEquipModCheck(1))
 {
 	maxDashes = 1;
 }
-else if (scrModCheck(0))
+else if (scrEquipModCheck(0))
 {
 	maxDashes = 0;
 }
@@ -30,9 +30,10 @@ if (dashCountDown == 0) //&& (currentDash == 0)
 
 
 //====== Shield Mods ======
-if (keyboard_check_pressed(ord("B")))
+if (shieldActive == 0) && (scrEquipModCheck(2))	// Turns shield on or off
 {
-	if (shieldActive)
+	alarm[0] = shieldCD;
+	/*if (shieldActive)
 	{
 		shieldActive = 0;
 	}
@@ -40,5 +41,5 @@ if (keyboard_check_pressed(ord("B")))
 	{
 		shieldActive = 1;
 		objEnergyShieldEffect.image_alpha = 1;
-	}
+	}*/
 }

@@ -37,4 +37,27 @@ if (showInv)
 			button[i, j].y = y1+24+(offset*j)+ (j*40);
 		}
 	}
+	
+	
+	// Drawing equip inventory
+	var eqX1, eqX2, eqY1, eqY2;
+	eqX1 = camera_get_view_x(view_camera[0])+centreX-(equipInvXSize/2 - (offset/2)) - 180;
+	eqX2 = (x1 - equipInvXSize) - offset*equipInvCol;
+	eqY1 = camera_get_view_y(view_camera[0])+centreY-(equipInvYSize/2 - (offset/2));
+	eqY2 = (y1 + equipInvYSize) - offset*equipInvRow;
+	
+	draw_set_color(c_gray);
+	draw_set_alpha(0.5);
+	draw_rectangle(eqX1, eqY1, eqX2, eqY2, false);
+	
+	draw_set_alpha(1);
+	for (k = 0; k < equipInvCol; k++)
+	{
+		for (l = 0; l < equipInvRow; l++)
+		{
+			draw_sprite(sprInventoryBorder, 0, eqX1+24+(offset*k) + (k*40), eqY1+24+(offset*l)+ (l*40));
+			eqButton[k, l].x = eqX1+24+(offset*k) + (k*40);
+			eqButton[k, l].y = eqY1+24+(offset*l)+ (l*40);
+		}
+	}
 }

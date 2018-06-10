@@ -4,10 +4,11 @@ image_speed = 0;
 enum modType {
 	dashh = 0,
 	dblDash,
-	armourUp
+	energyShield
 }
 
 randomize();
-typeMod = choose(modType.dashh, modType.dblDash, modType.armourUp);
+typeMod = choose(modType.dashh, modType.dblDash, modType.energyShield);
 
 image_index = typeMod;
+
