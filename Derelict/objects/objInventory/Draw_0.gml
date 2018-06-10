@@ -44,7 +44,7 @@ if (showInv)
 	eqX1 = camera_get_view_x(view_camera[0])+centreX-(equipInvXSize/2 - (offset/2)) - 180;
 	eqX2 = (x1 - equipInvXSize) - offset*equipInvCol;
 	eqY1 = camera_get_view_y(view_camera[0])+centreY-(equipInvYSize/2 - (offset/2));
-	eqY2 = (y1 + equipInvYSize) - offset*equipInvRow;
+	eqY2 = (y1 + equipInvYSize) - offset*equipInvRow+13;
 	
 	draw_set_color(c_gray);
 	draw_set_alpha(0.5);

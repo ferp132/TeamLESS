@@ -6,12 +6,13 @@ if (instance_exists(objPlayer))
 	y = objPlayer.y;
 }
 
-if (place_meeting(x, y, objEnemyProjectileParent)) && (scrEquipModCheck(2))
+if (place_meeting(x, y, objEnemyProjectileParent)) && (scrEquipModCheck(2)) || (keyboard_check_pressed(ord("B")))
 {
+	objModStats.hit = 1;
 	objModStats.shieldActive = 0;
 }
 
-if (objModStats.shieldActive == 0)
+if (objModStats.hit == 1)
 {
 	if (image_alpha != 0)
 	{

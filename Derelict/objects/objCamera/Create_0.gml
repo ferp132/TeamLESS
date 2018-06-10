@@ -1,4 +1,5 @@
 //Camera creation
+globalvar viewWidth, viewHeight;
 viewWidth = 640;
 viewHeight = 480;
 globalvar centreX, centreY;

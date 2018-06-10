@@ -11,7 +11,17 @@ currentDash = 0;			//
 isDashing = 0;				// Whether the player is currently dashing right now or not
 
 
-// == Energy Shield (index = )
+// == Energy Shield (index = 2)
 shieldActive = 0;			// Whether the shield is active or not
 shieldCD = room_speed*5;	// Cooldown
 shieldCountDown = 0;		// Used to count down for when the shield is ready next
+hit = 0;
+
+// == Damage Reduction (index = 3)
+dmgReduction = 0;
+
+// == Movespeed increase (index = 4)
+moveSpeedIncrease = 2;
+
+// == Health up (index = 5)
+hpIncrease = 40;

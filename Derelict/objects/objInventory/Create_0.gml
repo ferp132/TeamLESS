@@ -4,7 +4,15 @@
 	0 = Dash
 	1 = Double dash
 	2 = Energy Shield
-	3 = IDK
+	3 = Damage Reduction
+	4 = Movespeed increase
+	5 =  HP Up
+	6 = Twin shots
+	7 = Repeater shots
+	8 = Pulse shots
+	9 = Firerate upgrade
+	10 = Damage up
+	11 = Bullet speed up
 */
 //Setting depth to abritrarily low value so inventory shows over all other objects
 depth = -1000;
@@ -31,7 +39,10 @@ globalvar cursorMod;
 cursorMod = -1;
 instance_create_depth(0,0,-1002, objCursorMod);
 
-scrModPickup(0);
+scrModPickup(6);
+scrModPickup(7);
+scrModPickup(8);
+scrModPickup(2);
 
 
 offset = 3;	//The offset (in pixels) for the inventory slots borders to be from eachother
@@ -44,7 +55,7 @@ inventoryYSize = (objInventory.sprite_height * invRow) + (offset * invRow);
 
 // Equipped mods inventory
 globalvar equipInvRow, equipInvCol;
-equipInvRow = 4;
+equipInvRow = 3;
 equipInvCol = 2;
 
 for (k = 0; k < equipInvCol; k++)

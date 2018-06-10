@@ -1,5 +1,6 @@
 /// @description Initialise Variables
-hp = 100;
+maxHp = 100;
+hp = maxHp;
 
 //Horizontal movement
 movespeed = 6;          //Acceleration
