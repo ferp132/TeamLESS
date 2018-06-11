@@ -33,7 +33,7 @@ if (canSpawn)
         //if (position_meeting(randX, randY, objCollision))
         //if (position_meeting(randX, randY, objWall))
         {
-			while (!position_meeting(randX, randY+50, objCollision))
+			while (!position_meeting(randX, clamp((randY+50),0,room_height), objCollision))
 			{
 				++randY;
 				if (position_meeting(randX, randY, objCollision))
@@ -45,6 +45,10 @@ if (canSpawn)
 					break;
 				}
 				if (!collision_line(randX, randY, randX, room_height, objCollision, false, true))
+				{
+					exit;
+				}
+				if (randY >= room_height)
 				{
 					exit;
 				}
