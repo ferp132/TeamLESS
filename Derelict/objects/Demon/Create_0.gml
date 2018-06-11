@@ -1,3 +1,4 @@
+event_inherited();
 hp=80;
 
 vsp=0;

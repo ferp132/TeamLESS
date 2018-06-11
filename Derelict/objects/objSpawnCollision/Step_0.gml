@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (place_meeting(x, y, objPlayer))
+if (place_meeting(x, y, objPlayer) && (playerTrigger == false))
 {
 	objEnemyControl.canSpawn = true;
 	playerTrigger = true;
@@ -8,4 +8,5 @@ if (place_meeting(x, y, objPlayer))
 else
 {
 	objEnemyControl.canSpawn = false;
+	playerTrigger = false;
 }

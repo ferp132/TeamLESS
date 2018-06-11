@@ -7,3 +7,6 @@ enum State
 	Dying		= 4,
 	Dead		= 5
 }
+
+randomize();
+spawnMod = irandom_range(0, 101);

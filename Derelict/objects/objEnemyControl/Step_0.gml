@@ -16,8 +16,8 @@ randomize();
 randDis = irandom_range(0, 1000);
 randDir = irandom_range(0, 360);
 
-randX = clamp(objPlayer.x+lengthdir_x(200+randDis,randDir),0,room_width);
-randY = clamp(objPlayer.y+lengthdir_y(200+randDis,randDir),0,room_height);
+randX = clamp(objPlayer.x+lengthdir_x(400+randDis,randDir),0,room_width);
+randY = clamp(objPlayer.y+lengthdir_y(400+randDis,randDir),0,room_height);
 chosenEnemy = choose(bat_nme, GooNME, Scourge);
 
 if (canSpawn)

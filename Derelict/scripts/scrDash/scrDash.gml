@@ -8,7 +8,8 @@ dashEffect.sprite_index = sprite_index;
 dashEffect.image_index = image_index;
 dashEffect.image_xscale = image_xscale;*/
 
-scrCollide_Move(objPlayer);
+//scrCollide_Move(objPlayer);
+scrHorzCollision();
 objModStats.dashDistance += objModStats.dashSpeed;
     
 if (objModStats.dashDistance >= objModStats.maxDashDistance)
