@@ -22,8 +22,8 @@ chosenEnemy = choose(bat_nme, GooNME, Scourge);
 
 if (canSpawn)
 {
-    if (instance_number(chosenEnemy) <= 10)
-    {
+    //if (instance_number(chosenEnemy) <= 10)
+    //{
 		
 		if (collision_rectangle(randX-32, randY-32, randX+32, randY+32, objCollision, false, true))
 		{
@@ -33,12 +33,20 @@ if (canSpawn)
         //if (position_meeting(randX, randY, objCollision))
         //if (position_meeting(randX, randY, objWall))
         {
-			while (!position_meeting(randX, randY+40, objCollision))
+			while (!position_meeting(randX, randY+50, objCollision))
 			{
 				++randY;
+				if (position_meeting(randX, randY, objCollision))
+				{
+					exit;
+				}
 				if (point_distance(randX, randY, objPlayer.x, objPlayer.y) >= 200)
 				{
 					break;
+				}
+				if (!collision_line(randX, randY, randX, room_height, objCollision, false, true))
+				{
+					exit;
 				}
 			}
             //inst.y -= 17;
@@ -51,14 +59,21 @@ if (canSpawn)
 			exit;
 		}
         
-    }
+    //}
 }
 
 // When the player enters a specific area? Or if their hidden score hits a certain threshold? 
-if (hiddenScore >= 12)
+// Top left coordinates of rectangle to see if player is in there
+xx1 = 0;
+yy1 = 0;
+// Bottom right coordinates of rectangle to see if player is in there
+xx2 = 500;
+yy2 = 500;
+
+// Spawning mini-boss
+if (hiddenScore >= 12) //|| (collision_rectangle(xx1, yy1, xx2, yy2, objPlayer, false, true))
 {
-	
-	//instance_create_layer(x, y, "Instances", WalkerNme);
+	instance_create_layer(x, y, "Instances", WalkerNme);
 	bossWave = true;
 }
 
