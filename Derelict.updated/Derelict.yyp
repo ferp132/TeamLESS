@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "23c90f36-b45e-44ba-b950-696ce00d29c9",
+            "Value": {
+                "id": "fb364628-7beb-4919-8405-6dd382304d57",
+                "resourcePath": "objects\\objBackground\\objBackground.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "24e7ddea-5f1d-41a3-8cb6-23e62524a8b7",
             "Value": {
                 "id": "cb481f81-e780-4d49-a6f3-476af23240d7",
@@ -732,6 +740,14 @@
                 "id": "7bf8adf0-82e8-41b2-8f0f-071f20616598",
                 "resourcePath": "sprites\\sprPushBox\\sprPushBox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "89aa2dfc-c924-4bd6-a396-0cf4f3cacaae",
+            "Value": {
+                "id": "2170209e-e4ab-4730-8565-e0de12b5d054",
+                "resourcePath": "fonts\\fntHud\\fntHud.yy",
+                "resourceType": "GMFont"
             }
         },
         {
