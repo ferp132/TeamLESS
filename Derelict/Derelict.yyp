@@ -839,14 +839,6 @@
             }
         },
         {
-            "Key": "921d468a-57bc-412a-aaab-92bfeda74625",
-            "Value": {
-                "id": "e8420c61-502a-400f-8952-1eda3d22818f",
-                "resourcePath": "objects\\obj_ShopKeeper\\obj_ShopKeeper.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9225d7e7-4e44-4b17-84f5-715ba2eb3395",
             "Value": {
                 "id": "d8a29d35-b132-425c-a00d-395954a8c19a",
