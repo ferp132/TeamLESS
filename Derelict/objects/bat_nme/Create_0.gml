@@ -1,5 +1,3 @@
-x= room_width/2;		//x and y are line of sight variables for the spacebat
-y=room_height/2
 
 los= 500;
 
@@ -7,11 +5,13 @@ los= 500;
 active=false;
 
 var pointdir;
-
+death=false;
 alarm[0]=60;	//starts of as 1 minute timer
 
-hp=4;
-flash=3;        //white flashes when hit
+hp=10;
+flash=4;        //white flashes when hit must be the same value as the hp
 
 idle=false;
 image_speed=0;
+
+flash=0

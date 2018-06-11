@@ -1,4 +1,5 @@
-
+if(death==false)
+{
 
 if (distance_to_object(objPlayer) <= los) && !collision_line(x,y, objPlayer.x, objPlayer.y, objCollision,false, true)
  {
@@ -24,8 +25,14 @@ if (active==true && idle==false)
 	
 }
 
-if (hp<=0)
-{
-	instance_destroy(bat_nme);
 }
-  
+if(hp<=0)			
+{
+	death=true;
+	
+	sprite_index=spacebats_death;
+	if(image_index>=9)
+	{
+		instance_destroy();
+	}
+}
