@@ -7,7 +7,6 @@ if(PowerOn)
 		{
 			other.MyLiftBox = id;
 			image_yscale = -other.LiftHeight;
-			image_xscale = other.image_xscale;
 			LiftPower = other.LiftPower;
 		}
 	}

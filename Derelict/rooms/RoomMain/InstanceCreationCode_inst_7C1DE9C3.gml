@@ -1,1 +1,0 @@
-AscObj = GL_C
