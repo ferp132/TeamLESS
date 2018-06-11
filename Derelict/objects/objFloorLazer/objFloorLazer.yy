@@ -5,7 +5,7 @@
     "name": "objFloorLazer",
     "eventList": [
         {
-            "id": "22abfb83-9d40-457b-b9f2-f7e5ec6b7ad6",
+            "id": "67f2a723-1a98-4cac-b4fb-6cb20c98f87c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "921ad527-592f-41f9-b6d9-2e492f1e8683"
         },
         {
-            "id": "da6aed92-b4bc-4600-a31c-c8c787c134f2",
+            "id": "184d46e6-5963-4e49-8930-a7108ea3cb02",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

@@ -20,6 +20,7 @@ phealth			= maxHp;
 ControlsDisabled = 0;
 DisableTimer = 15;
 
+
 keyboard_set_map(ord("W"), vk_space);
 
 enum state {
@@ -28,3 +29,5 @@ enum state {
     jump,
 }
 currentState = state.normal;
+
+coins = 500;

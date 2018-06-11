@@ -1,7 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-x = objPlayer.x+50;
-y = objPlayer.y;
+if (instance_exists(objPlayer))
+{
+	x = objPlayer.x+50;
+	y = objPlayer.y;
+}
 
 //====== Dash Mods ========
 if (scrEquipModCheck(1))

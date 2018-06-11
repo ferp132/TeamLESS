@@ -5,7 +5,7 @@
     "name": "objLift",
     "eventList": [
         {
-            "id": "6e8daff8-e76d-4f8c-acd7-af51220099b7",
+            "id": "98367991-d75f-4541-98e0-493574117369",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "897fb447-55ad-4b30-8fc7-9f54435c12de"
         },
         {
-            "id": "83c0a72c-9709-4300-983a-bb9babaf3ada",
+            "id": "e0829220-d871-4fa5-a734-a019cde890ef",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

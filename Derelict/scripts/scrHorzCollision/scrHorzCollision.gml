@@ -4,7 +4,7 @@
 	if (place_meeting(x+hMovement, y, objCollision))
 	{
 	    while (!place_meeting(x+sign(hMovement), y, objCollision)) x += sign(hMovement);
-		with (instance_place(x + hMovement, y, objMovingPlatform)) other.x += xMovement;
+		//with (instance_place(x + hMovement, y, objMovingPlatform)) other.x += xMovement;
 		hMovement = 0;
 	}
 }

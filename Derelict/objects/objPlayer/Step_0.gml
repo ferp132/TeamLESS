@@ -1,5 +1,9 @@
-scrGetInput();
+if (phealth == 0)
+{
+	room_restart();
+}
 
+scrGetInput();
 OnSlime = place_meeting(x, y+1, objSlime);
 
 //-----Set Jump

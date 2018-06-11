@@ -5,7 +5,7 @@
     "name": "objPushBoxPiece",
     "eventList": [
         {
-            "id": "fef9cf38-1674-4125-9163-51ac74dfe979",
+            "id": "5249c90a-0ac2-4ae7-962d-435acf8c0f8c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "3be1a4de-4f74-4962-81ce-695c6dcb4f04"
         },
         {
-            "id": "05313cbd-5b01-49f3-933e-79abd0bf144d",
+            "id": "2d1f760a-0256-48d1-b359-2e3948d62be0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

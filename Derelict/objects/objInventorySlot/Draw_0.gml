@@ -15,15 +15,73 @@ if (showInv)
 		
 		if (clicked)
 		{
-			if (item != -1)
+			if (room = Room_Shop_Sell)
 			{
-				scrSlotModRemove(slotX, slotY);
+				if (item != -1)
+				{
+					var itemRemoved = scrSlotModRemove(slotX, slotY);
+					if (itemRemoved == 0)	// Dash
+					{
+						objPlayer.coins = objPlayer.coins + 300;
+					}
+					if (itemRemoved == 1)	// Double-Dash
+					{
+						objPlayer.coins = objPlayer.coins + 400;
+					}
+					if (itemRemoved == 2)	// Energy Shield
+					{
+						objPlayer.coins = objPlayer.coins + 500;
+					}
+					if (itemRemoved == 3)	// Damage-reduction
+					{
+						objPlayer.coins = objPlayer.coins + 150;
+					}
+					if (itemRemoved == 4)	// Movespeed increase
+					{
+						objPlayer.coins = objPlayer.coins + 200;
+					}
+					if (itemRemoved == 5)	// Health increase
+					{
+						objPlayer.coins = objPlayer.coins + 300;
+					}
+					if (itemRemoved == 6)	// Twin-Blast
+					{
+						objPlayer.coins = objPlayer.coins + 750;
+					}
+					if (itemRemoved == 7)	// Repeater-shot
+					{
+						objPlayer.coins = objPlayer.coins + 700;
+					}
+					if (itemRemoved == 8)	// Pulse-blast
+					{
+						objPlayer.coins = objPlayer.coins + 750;
+					}
+					if (itemRemoved == 9)	// Firerate Increase
+					{
+						objPlayer.coins = objPlayer.coins + 165;
+					}
+					if (itemRemoved == 10)	// Damage Increase
+					{
+						objPlayer.coins = objPlayer.coins + 250;
+					}
+					if (itemRemoved == 11)	// Bullet speed increase
+					{
+						objPlayer.coins = objPlayer.coins + 185;
+					}
+				}
 			}
-			if (cursorMod != -1)
+			else
 			{
-				scrSlotModPickup(slotX, slotY, cursorMod);
+				if (item != -1)
+				{
+					scrSlotModRemove(slotX, slotY);
+				}
+				if (cursorMod != -1)
+				{
+					scrSlotModPickup(slotX, slotY, cursorMod);
+				}
+				cursorMod = item;
 			}
-			cursorMod = item;
 		}
 	}
 	

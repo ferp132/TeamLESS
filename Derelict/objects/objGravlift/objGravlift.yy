@@ -5,7 +5,7 @@
     "name": "objGravlift",
     "eventList": [
         {
-            "id": "d1d5e6e4-1872-4959-917f-e8e17685fb74",
+            "id": "ed446e89-0e46-45d8-bc2a-a1065b8f5177",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "400ea7cb-b435-4b27-a71e-07054baa6e25"
         },
         {
-            "id": "f38d5715-5c70-45a6-8817-a2f1d103f78e",
+            "id": "a06e7431-c132-4629-b859-3ded03576bee",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "400ea7cb-b435-4b27-a71e-07054baa6e25"
         },
         {
-            "id": "5c25495c-358c-4963-963d-509f656000d2",
+            "id": "c92c710b-ff0b-43ed-97bd-f8823835a344",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

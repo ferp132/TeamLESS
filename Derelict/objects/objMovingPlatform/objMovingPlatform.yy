@@ -5,7 +5,7 @@
     "name": "objMovingPlatform",
     "eventList": [
         {
-            "id": "99885ecf-cb5a-4ea2-8d5d-a8599a29ed4b",
+            "id": "bde76905-7b6d-47ad-b510-3fb4c8d5f191",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "7d3b581e-b23c-442c-a984-4b480d99217c"
         },
         {
-            "id": "60b9e07c-42c6-49a0-9bf2-88fb5f428ceb",
+            "id": "56302625-0273-4f26-981c-f772d32c0081",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

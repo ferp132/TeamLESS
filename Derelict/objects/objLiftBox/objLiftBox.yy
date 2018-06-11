@@ -5,7 +5,7 @@
     "name": "objLiftBox",
     "eventList": [
         {
-            "id": "70f3a261-adbf-4f88-aece-4c411f8bbcec",
+            "id": "ff66183c-65e3-42f3-a427-ab5732bb9acd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

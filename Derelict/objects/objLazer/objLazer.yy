@@ -5,7 +5,7 @@
     "name": "objLazer",
     "eventList": [
         {
-            "id": "d08a8065-e242-466f-b5e7-6138a9f19a67",
+            "id": "cc17453c-bc81-4981-8c27-4bd2af4b8855",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "6d050458-7291-4548-be66-94c6094359ae"
         },
         {
-            "id": "189b79de-aeea-45a2-8168-8b0a675bcb61",
+            "id": "77ac85ae-f9b2-4030-99b3-298c7b198378",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

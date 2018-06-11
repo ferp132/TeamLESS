@@ -7,7 +7,7 @@ if(CurrentState == State.Dead)
 		CurrentState			= State.Idle;
 	}
 }
-else if(CurrentSucklerHealth <= 0)											CurrentState = State.Dying;
+else if(CurrentSucklerHealth <= 0)										CurrentState = State.Dying;
 else if(place_meeting(x + 5, y, objPlayer))								CurrentState = State.Attack;
 else if(collision_circle(x, y, DetectionRad, objPlayer, false, true))	CurrentState = State.Alert;
 else																	CurrentState = State.Idle;

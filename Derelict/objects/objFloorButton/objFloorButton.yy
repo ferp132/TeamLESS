@@ -5,7 +5,7 @@
     "name": "objFloorButton",
     "eventList": [
         {
-            "id": "03d472ef-413b-4cb1-a579-7a5daeb47837",
+            "id": "45add1f7-f1d3-4dd3-9f6e-0fa8127de7ff",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "8678fc6e-278a-483b-815c-9bf6be9d6673"
         },
         {
-            "id": "bb628501-9169-4f29-8fb8-a63abd8a9157",
+            "id": "9f5389ec-995e-426f-9758-450a3961a693",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "8678fc6e-278a-483b-815c-9bf6be9d6673"
         },
         {
-            "id": "cbb621fa-a191-44a7-a626-5fa01099bf84",
+            "id": "3e23fcce-896b-4fba-89f3-061844fce9d4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
