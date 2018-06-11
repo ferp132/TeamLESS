@@ -26,3 +26,5 @@ enum state {
     jump,
 }
 currentState = state.normal;
+
+coins = 500;
