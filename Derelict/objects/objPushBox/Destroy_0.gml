@@ -1,0 +1,1 @@
+if(Spawner != 0) with(Spawner) BoxCount--;

@@ -1,17 +1,24 @@
 /// @description Initialise Variables
-maxHp = 100;
-hp = maxHp;
-
 //Horizontal movement
-movespeed = 6;          //Acceleration
-currentSpeed = 0;   //Current movement speed
+hSpeed		= 6;			//-----Mow much the player can move per step
+hMovement		= 0;		//Current movement speed
+hInput			= 0;		//-----Players Right-Left Input
+Acceleration	= 1.2;
 
 //Vertical movement
-jumpSpeed = 0;
-jumpHeight = 18;
+vMovement		= 0;
+vSpeed			= -16;
+vInput			= 0;		//-----Players Up/Space Input
 
 //Gravity
-grav = 0.7;        //How much gravity will affect us
+Gravity			= 1;
+
+OnSlime			= 0;
+CanMove			= true;
+maxHp			= 100;
+phealth			= maxHp;
+
+keyboard_set_map(ord("W"), vk_space);
 
 enum state {
     normal,
@@ -19,4 +26,3 @@ enum state {
     jump,
 }
 currentState = state.normal;
-
