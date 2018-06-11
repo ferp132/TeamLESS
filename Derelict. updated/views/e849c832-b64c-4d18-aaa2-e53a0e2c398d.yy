@@ -1,0 +1,24 @@
+{
+    "id": "e849c832-b64c-4d18-aaa2-e53a0e2c398d",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "e849c832-b64c-4d18-aaa2-e53a0e2c398d",
+    "children": [
+        "922653d4-bda7-4709-b7b8-542308fc6b3e",
+        "e5fedd3f-e48b-4e3d-a94f-6cb4bef5b4bf",
+        "bdf52e10-613f-47c1-8f17-fc8497701077",
+        "045e953f-61c5-4dab-9320-b3d1d68aa1dc",
+        "a724fba2-7467-4a39-92a0-e73f20f9fb92",
+        "18c600a5-e827-45eb-bf8e-e03d31936964",
+        "90c4c58f-0834-4f75-8340-010e705e2732",
+        "e43c0b38-708e-40c1-bc0f-0c3d13e992be",
+        "7f4bab3f-6b52-41a7-8aaf-33fa69dad98d",
+        "e58c91e8-9942-4b31-8ea4-f2fd3abe0609",
+        "ffb24fdb-d8be-435a-8f4a-60be2adf3d2c",
+        "ca54319e-f0d7-4635-a792-176832838b30"
+    ],
+    "filterType": "GMObject",
+    "folderName": "Enemy",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

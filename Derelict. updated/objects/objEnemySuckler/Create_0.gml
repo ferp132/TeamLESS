@@ -1,0 +1,9 @@
+SpitDelay				= 0;
+AttackDelay				= 60;
+AttackPower				= 15;
+BaseHealth				= 20;
+CurrentSucklerHealth	= BaseHealth;
+CurrentState			= 0;
+DetectionRad			= 256;
+RespawnTimer			= 0;
+image_speed				= 0;
