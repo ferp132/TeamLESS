@@ -8,24 +8,25 @@ if (constWave)
 randomize();
 randX = irandom_range(x-200, x+200);
 randY = irandom_range(y-200, y+200); 
-chosenEnemy = choose(bat_nme);
+chosenEnemy = choose(bat_nme, GooNME, Scourge);
 
 if (canSpawn)
 {
     if (instance_number(chosenEnemy) <= 10)
     {
-        if (collision_rectangle(randX-16, randY-16, randX+16, randY+16, bat_nme, false, true)) //|| collision_rectangle(randX-16, randY-16, randX+16, randY+16, tempEnemy2, false, true) || collision_rectangle(randX-16, randY-16, randX+16, randY+16, tempEnemy3, false, true) || collision_rectangle(randX-16, randY-16, randX+16, randY+16, tempEnemy4, false, true))
+        if (collision_rectangle(randX-16, randY-16, randX+16, randY+16, chosenEnemy, false, true))
         {
             exit;
         }          
         else
         {
-            if (position_meeting(randX, randY, objCollision))
+			if (place_free(randX, randY))
+            //if (position_meeting(randX, randY, objCollision))
             //if (position_meeting(randX, randY, objWall))
             {
-				while (position_meeting(randX, randY-20, objCollision))
+				while (!position_meeting(randX, randY-32, objCollision))
 				{
-					randY--;
+					randY++;
 				}
                 var inst = instance_create_layer(randX, randY, 0, chosenEnemy);
                 //inst.y -= 17;
