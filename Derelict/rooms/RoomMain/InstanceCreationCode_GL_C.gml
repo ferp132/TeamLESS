@@ -1,1 +1,0 @@
-LiftPower = -20;
