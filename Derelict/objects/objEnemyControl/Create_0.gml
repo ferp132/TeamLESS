@@ -4,7 +4,7 @@ hiddenScore = 0;
 spawnRate = 91/(1+(hiddenScore*0.025));
 //spawnRate = 31;
 spawnDelay = spawnRate;
-canSpawn = true;
+canSpawn = false;
 
 bossWave = false;
 

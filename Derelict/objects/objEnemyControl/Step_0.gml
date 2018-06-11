@@ -67,15 +67,9 @@ if (canSpawn)
 }
 
 // When the player enters a specific area? Or if their hidden score hits a certain threshold? 
-// Top left coordinates of rectangle to see if player is in there
-xx1 = 0;
-yy1 = 0;
-// Bottom right coordinates of rectangle to see if player is in there
-xx2 = 500;
-yy2 = 500;
 
 // Spawning mini-boss
-if (hiddenScore >= 12) //|| (collision_rectangle(xx1, yy1, xx2, yy2, objPlayer, false, true))
+if ((hiddenScore >= 12))
 {
 	instance_create_layer(x, y, "Instances", WalkerNme);
 	bossWave = true;
@@ -87,7 +81,10 @@ if (!canSpawn && !bossWave)
     if (spawnDelay == spawnRate)
     {
         spawnDelay = spawnRate;
-        canSpawn = true;
+		if (objSpawnCollision.playerTrigger)
+		{
+			canSpawn = true;
+		}
     }
 }
 
