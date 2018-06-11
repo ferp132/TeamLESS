@@ -1,9 +1,9 @@
-xMovement = MoveSpeed * MoveCheck * MoveDir;
+hMovement = MoveSpeed * MoveCheck * MoveDir;
 
 if (MoveDir == 1 && x >= PointEnd)
 {
 
-	xMovement	= 0;
+	hMovement	= 0;
 	MoveDir		= -MoveDir;
 	
 	PointTemp	= PointStart;
@@ -13,7 +13,7 @@ if (MoveDir == 1 && x >= PointEnd)
 else if (MoveDir == -1 && x <= PointEnd)
 {
 
-	xMovement	= 0;
+	hMovement	= 0;
 	MoveDir		= -MoveDir;
 	
 	PointTemp	= PointStart;
@@ -21,4 +21,4 @@ else if (MoveDir == -1 && x <= PointEnd)
 	PointEnd	= PointTemp;
 }
 
-x += xMovement;
+x += hMovement;

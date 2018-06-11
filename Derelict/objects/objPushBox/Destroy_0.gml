@@ -3,7 +3,7 @@ if(Spawner != 0)
 	with(Spawner)
 	{
 		BoxCount--;
-		BoxDropTimer -=  BoxCount * BoxCount * BoxCount;
+		BoxDropTimer =  BoxRate * BoxCount * BoxCount;
 	}
 }
 

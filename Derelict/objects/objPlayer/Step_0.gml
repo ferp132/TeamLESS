@@ -9,9 +9,15 @@ OnSlime = place_meeting(x, y+1, objSlime);
 //-----Set Jump
 if(place_meeting(x, y+1, objCollision) && !OnSlime)
 {
-	if(vInput)	vMovement = vSpeed;
-} else			vMovement += Gravity;
+	CanJump = true;
+	JumpTimer = 5;
+} 
 
+if(JumpTimer > 0) JumpTimer--
+else CanJump = false;
+
+if(CanJump && vInput)	vMovement = vSpeed;
+else vMovement += Gravity;
 //-----Set Horizontal Movement
 if(OnSlime) 
 {
@@ -55,5 +61,8 @@ switch (currentState)
     scrPlayerStateNormal();
     break;
 }
+
+
+
 
 if(keyboard_check(ord("R"))) room_restart();

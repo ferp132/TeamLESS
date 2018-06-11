@@ -1,0 +1,1 @@
+hMovement = 0;

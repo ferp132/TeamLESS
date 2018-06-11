@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "5ba5b5c3-241f-4802-b851-34a34c61396a",
+            "Value": {
+                "id": "c52e897c-c462-4c39-ad10-a0cc7d06fc17",
+                "resourcePath": "sprites\\sprSpaceBackground\\sprSpaceBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "614650d7-ea72-4c2b-bf1b-191649f0be68",
             "Value": {
                 "id": "2d3e620f-3d21-48ae-86aa-851d70833480",
@@ -980,6 +988,14 @@
                 "id": "c570a973-5590-4f3c-aeaf-c8a794686d6d",
                 "resourcePath": "objects\\objCursorMod\\objCursorMod.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b4a8ec65-effa-46d3-bc3e-d935d7028562",
+            "Value": {
+                "id": "0369c7d2-330b-4129-bb0f-aecd0b508728",
+                "resourcePath": "rooms\\RoomMain\\RoomMain.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

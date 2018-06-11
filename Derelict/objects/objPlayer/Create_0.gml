@@ -19,6 +19,8 @@ maxHp			= 100;
 phealth			= maxHp;
 ControlsDisabled = 0;
 DisableTimer = 15;
+JumpTimer		= 3;
+CanJump = true;
 
 
 keyboard_set_map(ord("W"), vk_space);

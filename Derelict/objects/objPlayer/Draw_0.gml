@@ -9,7 +9,7 @@ var _w = display_get_gui_width();
 // draw coin text
 draw_set_halign(fa_right);
 Scr_format_text();
-if (room == LouisTestRoom)
+if (room == RoomMain)
 {
 	draw_self();
 	draw_text(camera_get_view_x(view_camera[0])+viewWidth - 30,camera_get_view_y(view_camera[0]) + 40,coins);

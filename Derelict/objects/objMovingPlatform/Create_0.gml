@@ -1,4 +1,4 @@
-xMovement	= 0;
+hMovement	= 0;
 MoveSpeed	= 5;
 MoveCheck	= true;
 

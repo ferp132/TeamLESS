@@ -1,7 +1,7 @@
 BoxDropTimer--;
 if(BoxDropTimer <= 0)
 {
-	with(instance_create_depth(x, y + 32, depth+1, objPushBox))
+	with(instance_create_depth(x - 32, y + 64, depth+1, objPushBox))
 	{
 		Spawner = other.id;
 	}
@@ -9,4 +9,4 @@ if(BoxDropTimer <= 0)
 	BoxDropTimer = BoxDropRate;	
 }
 
-	BoxDropRate = 20 + BoxCount * BoxCount * BoxCount * BoxCount;
+	BoxDropRate = 20 + BoxCount * BoxCount * BoxRate;

@@ -1,4 +1,4 @@
-	objPlayer.x += -objPlayer.hMovement;
-	objPlayer.hMovement = -objPlayer.hMovement;
-	objPlayer.vMovement += -5;
-	objPlayer.ControlsDisabled = 1;
+objPlayer.x += -objPlayer.hMovement;
+objPlayer.hMovement = -objPlayer.hMovement;
+objPlayer.vMovement += -5;
+objPlayer.ControlsDisabled = 1;
