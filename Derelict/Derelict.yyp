@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0d16c311-9937-4ece-9144-0fa10df899c0",
+            "Value": {
+                "id": "5be9f6d3-0069-4e4d-9ac4-4b8c6acaf058",
+                "resourcePath": "rooms\\rmSunnyTestRoom\\rmSunnyTestRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0fad13da-c5fd-4c57-a9cb-1e5593728872",
             "Value": {
                 "id": "6512ae2f-05d2-445d-accb-117e154ad5c0",

@@ -28,7 +28,7 @@ bulletY = y-1 + lengthdir_y(35, dir);
 // Shooting with mods
 if (scrEquipModCheck(9))	// Player has firerate upgrade equipped
 {
-	firerate = 26;
+	firerate = 23;
 }
 
 if (scrEquipModCheck(10))	// Player has damage upgrade equipped
@@ -38,7 +38,7 @@ if (scrEquipModCheck(10))	// Player has damage upgrade equipped
 
 if (scrEquipModCheck(11))	// Player has bullet speed upgrade equipped
 {
-	bulletSpeed = 10.5;
+	bulletSpeed = 15;
 }
 
 if (mouse_check_button(mb_left) && canShoot && !showInv)
