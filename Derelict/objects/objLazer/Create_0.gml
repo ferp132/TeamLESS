@@ -1,0 +1,1 @@
+LazerDamage = 5;

@@ -17,6 +17,8 @@ OnSlime			= 0;
 CanMove			= true;
 maxHp			= 100;
 phealth			= maxHp;
+ControlsDisabled = 0;
+DisableTimer = 15;
 
 keyboard_set_map(ord("W"), vk_space);
 

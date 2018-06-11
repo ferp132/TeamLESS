@@ -1,0 +1,1 @@
+AscObj = noone;

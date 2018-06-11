@@ -1,4 +1,5 @@
 scrGetInput();
+
 OnSlime = place_meeting(x, y+1, objSlime);
 
 //-----Set Jump
@@ -13,6 +14,10 @@ if(OnSlime)
 	hMovement +=	sign(hMovement) * Acceleration;
 	hMovement =		clamp(hMovement, -hSpeed/2, hSpeed/2);
 }
+else if(ControlsDisabled)
+{
+
+}
 else if (hInput == 0) hMovement = 0;
 else
 {
@@ -20,11 +25,24 @@ else
 	hMovement =		clamp(hMovement, -hSpeed, hSpeed)
 }
 
+//-----GravLift
+scrGravlift();
+
 //-----Apply Movement  & Collision Checks
 scrHorzCollision();
 x += hMovement;
 scrVertCollision();
 y += vMovement;
+
+if(ControlsDisabled)
+{
+	if (DisableTimer <= 0) 
+	{
+		ControlsDisabled = 0;
+		DisableTimer = 15;
+	}
+	DisableTimer--;
+}
 
 //-----Set Sprite Direction
 switch (currentState)
@@ -33,3 +51,5 @@ switch (currentState)
     scrPlayerStateNormal();
     break;
 }
+
+if(keyboard_check(ord("R"))) room_restart();
