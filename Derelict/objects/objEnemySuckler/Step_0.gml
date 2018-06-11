@@ -54,7 +54,7 @@ case State.Hit:
 }
 case State.Dying:
 {
-	RespawnTimer	= 60;
+	RespawnTimer	= 300;
 	image_index		= 1;
 	CurrentState	= State.Dead;
 	break;
