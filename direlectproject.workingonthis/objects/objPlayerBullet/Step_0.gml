@@ -3,7 +3,7 @@ hspeed=5
 
 if(instance_exists(WalkerNme))
 {
-	if(place_meeting(WalkerNme.x,WalkerNme.y,WalkerNme)){
+	if(place_meeting(x,y,WalkerNme)){
 if(WalkerNme.sprite_index==WalkerAttack )
 {
 	
@@ -12,6 +12,12 @@ if(WalkerNme.sprite_index==WalkerAttack )
 		image_index=1
 		
 	
+}
+
+if(WalkerNme.sprite_index==WalkerWalk ){
+	WalkerNme.hp=WalkerNme.hp-0;
+		WalkerNme.flash=1
+show_message(WalkerNme.hp)
 }
 }}
 

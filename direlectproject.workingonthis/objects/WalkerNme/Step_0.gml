@@ -46,7 +46,7 @@ if(instance_exists(testplayer_obj)){
 if(distance_to_object(testplayer_obj)<300)		//play around with these numbers for ai detection
 {
 dir=sign(testplayer_obj.x-x);	
-	hsp=dir*3.5;			//play around with these numbers for ai detection and response
+	hsp=dir*4;			//play around with these numbers for ai detection and response
 	if(distance_to_object(testplayer_obj)<2)
 	{
 		
@@ -93,6 +93,7 @@ if(place_meeting(x+hsp, y, testplayer_obj))	//when not collision with player
 	if( image_index>=8)
 	{
 		testplayer_obj.phealth--
+		
 	}
 }
 
@@ -110,13 +111,26 @@ if(sprite_index==WalkerAttack )
 
 }
 
+if(place_meeting(x+hsp, y, testplayer_obj))	//when not collision with player
+{												//this is for attack cooldown
 
 
-
+	image_speed=1;
+	if( image_index>=8)
+	{
+		testplayer_obj.phealth--
+	
+	}
+}
 
 }
 
-
+if(place_meeting(x, y+5, objPlayerBullet))
+{
+	hp=hp-1
+	flash=1
+	
+}
 
 	
 	

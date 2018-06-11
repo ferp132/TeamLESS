@@ -47,10 +47,11 @@ if(death==false && attacking==false && detected ==false)
 	
 		if(sprite_index==DemonDash)		//if demondashes sprites activated
 		{
-			if(distance_to_object(testplayer_obj)<=200){
+		if(distance_to_object(testplayer_obj)<=200){
 		hsp=sign(testplayer_obj.x-x)*5;	
-				
-		Demon.x=Demon.x+hsp;
+		vsp=sign(testplayer_obj.y-y)*5;	
+		x=x+hsp;
+		y=y+vsp;
 		
 		
 		if(image_index>=6)
@@ -68,7 +69,7 @@ if(death==false && attacking==false && detected ==false)
 		}
 	
 if(instance_exists(testplayer_obj)){
-if(distance_to_point(testplayer_obj.x, clamp(y,y-20,y+81))<200) && (backtopos==false) && (duration<=0) && (ranged==false)
+if(distance_to_object(testplayer_obj)<200) && (backtopos==false) && (duration<=0) && (ranged==false)//play around with these numbers for ai detection and response
 {
 		
 		sprite_index=DemonDash;
@@ -76,10 +77,11 @@ if(distance_to_point(testplayer_obj.x, clamp(y,y-20,y+81))<200) && (backtopos==f
 		attacking=true;
 	
 		hsp=sign(testplayer_obj.x-x)*5;	
-	
+		vsp=sign(testplayer_obj.y-y)*5;	
 		x=x+hsp;
+		y=y+vsp;
 		
-		if(distance_to_object(testplayer_obj)<=20)//play around with these numbers for ai detection and response
+		if(distance_to_object(testplayer_obj)<=10)//play around with these numbers for ai detection and response
 		{
 			sprite_index=DemonPunch;
 			image_speed=0.5;
@@ -88,12 +90,9 @@ if(distance_to_point(testplayer_obj.x, clamp(y,y-20,y+81))<200) && (backtopos==f
 				if(image_index==3)
 				{
 				testplayer_obj.phealth--
-				
-				
+			
 				backtopos=true
 				duration=40
-								
-				
 				}
 			}
 		
@@ -108,6 +107,7 @@ if(distance_to_point(testplayer_obj.x, clamp(y,y-20,y+81))<200) && (backtopos==f
 		hsp=sign(initialposx-x)*5;	
 		//vsp=sign(initialposy-y)*5;
 		x=x+hsp;
+		//y=y+vsp;
 		
 		duration--;
 		backtopos=false
@@ -139,8 +139,7 @@ detected=true
 if(firedelay<=0){
 sprite_index=DemonGapingattack;
 image_speed=0.8;
-if(image_index>=8)
-{
+if(image_index>=8){
 	firedelay=10;
 instance_create_layer(x+ (sign(testplayer_obj.x-x)*45),y+20,"Instances" ,demonball) 
 }
@@ -176,6 +175,7 @@ detected=false
 ranged=false
 }	
 }
+
 
 
 
