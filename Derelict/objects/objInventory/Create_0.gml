@@ -39,11 +39,6 @@ globalvar cursorMod;
 cursorMod = -1;
 instance_create_depth(0,0,-1002, objCursorMod);
 
-scrModPickup(6);
-scrModPickup(7);
-scrModPickup(8);
-scrModPickup(2);
-
 
 offset = 3;	//The offset (in pixels) for the inventory slots borders to be from eachother
 

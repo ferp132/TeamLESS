@@ -1,4 +1,4 @@
-
+event_inherited();
 los= 500;
 
 //distance_toplayer=5000;
