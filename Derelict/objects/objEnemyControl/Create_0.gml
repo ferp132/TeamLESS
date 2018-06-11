@@ -1,8 +1,12 @@
 /// @description Initialise Variables
-spawnRate = 31;
+//Scoring
+hiddenScore = 0;
+spawnRate = 31/(hiddenScore*0.025);
+//spawnRate = 31;
 spawnDelay = spawnRate;
 canSpawn = true;
 
-//Scoring
-hiddenScore = 0;
+bossWave = false;
 
+// After miniboss has been spawned and killed
+constWave = false;

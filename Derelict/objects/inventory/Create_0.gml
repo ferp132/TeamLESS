@@ -4,6 +4,9 @@ globalvar maxgunitems, maxarmouritems;	//total item slots
 maxgunitems = 6;		//MODIFY MUST KNOW HOW MANY MAX!!
 maxarmouritems= 6;		//MODIFY
 
+global.gunItem = 0;
+global.armourItem = 0;
+
 for(i=0; i<maxgunitems; i++)
 {
 	global.guninventory[i]=-1;			//=-1 if nothings in the borders sprtes

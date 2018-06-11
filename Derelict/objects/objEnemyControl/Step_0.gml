@@ -1,6 +1,13 @@
+// After miniboss has been spawned and killed
+if (constWave)
+{
+	spawnRate = 14;
+}
+
+
 randomize();
 randX = irandom_range(x-200, x+200);
-randY = irandom_range(y-200, y+200);
+randY = irandom_range(y-200, y+200); 
 chosenEnemy = choose(bat_nme);
 
 if (canSpawn)
@@ -13,9 +20,13 @@ if (canSpawn)
         }          
         else
         {
-            if (position_meeting(randX, randY+49, objCollision))
+            if (position_meeting(randX, randY, objCollision))
             //if (position_meeting(randX, randY, objWall))
             {
+				while (position_meeting(randX, randY-20, objCollision))
+				{
+					randY--;
+				}
                 var inst = instance_create_layer(randX, randY, 0, chosenEnemy);
                 //inst.y -= 17;
             
@@ -27,7 +38,13 @@ if (canSpawn)
     }
 }
 
-if (!canSpawn)
+if (hiddenScore >= 500)
+{
+	instance_create_layer(x, y, 0, objTempMiniBoss);
+	bossWave = true;
+}
+
+if (!canSpawn && !bossWave)
 {
     spawnDelay++;
     if (spawnDelay == spawnRate)

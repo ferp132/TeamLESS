@@ -15,10 +15,10 @@ if (showinv)
 		
 		for(i=0; i<maxgunitems; i++)	//FOR GUN ADDON
 		{
-			draw_sprite(inveborder,0, x1+380+(i*40), y2 +30)			// where in the rect you want each sprite to appear
+			draw_sprite(inveborder,0, x1+412+(i*40), y2 +30)			// where in the rect you want each sprite to appear
 			if(global.guninventory[i] !=-1)
 			{
-				draw_sprite(spr_mods, global.guninventory[i], x1+380+(i*40), y2 )
+				draw_sprite(spr_mods, global.guninventory[i], x1+412+(i*40), y2 )
 									//subimage is literally inventory which will be a number
 									
 			}
@@ -26,14 +26,13 @@ if (showinv)
 		
 		for(i=0; i<maxarmouritems; i++)		//FOR ARMOUR ADDON
 		{
-			draw_sprite(inveborder,0, x1+380+(i*40), y2 +70)			//where in the rect you want each sprite to appear
+			draw_sprite(inveborder,0, x1+412+(i*40), y2 +70)			//where in the rect you want each sprite to appear
 			if(global.armourinventory[i] !=-1)
 			{
-				draw_sprite(spr_mods, global.armourinventory[i], x1+380+(i*40), y2 +70)
+				draw_sprite(spr_mods, global.armourItem, x1+412+(i*40), y2 +70)
 						//will have to put in a separate sprite filled with subimages for guns
 						//subimage is literally inventory which will be a number
 									
 			}
 		}
-		
 }
