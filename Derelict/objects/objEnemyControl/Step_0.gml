@@ -24,7 +24,7 @@ if (canSpawn)
             //if (position_meeting(randX, randY, objCollision))
             //if (position_meeting(randX, randY, objWall))
             {
-				while (!position_meeting(randX, randY-32, objCollision))
+				while (!position_meeting(randX, randY-34, objCollision))
 				{
 					randY++;
 				}
@@ -41,7 +41,8 @@ if (canSpawn)
 
 if (hiddenScore >= 500)
 {
-	instance_create_layer(x, y, 0, objTempMiniBoss);
+	instance_create_layer(x, y, "Instances", WalkerNme);
+	instance_create_layer(x, y, "Instances", GooNME);
 	bossWave = true;
 }
 
