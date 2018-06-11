@@ -1,7 +1,7 @@
 /// @description Initialise Variables
 //Scoring
 hiddenScore = 0;
-spawnRate = 31/(1+(hiddenScore*0.025));
+spawnRate = 12/(1+(hiddenScore*0.025));
 //spawnRate = 31;
 spawnDelay = spawnRate;
 canSpawn = true;
