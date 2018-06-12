@@ -9,5 +9,6 @@ if (collision_rectangle(x-20, y-20, x+20, y+20, objPlayer, false, true))
 	{
 		scrModPickup(typeMod);
 		instance_destroy();
+		audio_play_sound(sndInventoryPick, 5, false);
 	}
 }

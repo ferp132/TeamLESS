@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "24503832-b758-4138-bf89-e47ae72b2792",
+            "Value": {
+                "id": "93894fc1-6426-4a39-9881-6aabf1399ff4",
+                "resourcePath": "sprites\\sprPlayerDead\\sprPlayerDead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "24e7ddea-5f1d-41a3-8cb6-23e62524a8b7",
             "Value": {
                 "id": "cb481f81-e780-4d49-a6f3-476af23240d7",
@@ -671,6 +679,14 @@
             }
         },
         {
+            "Key": "71cdb5e0-8bce-4ebd-aedd-75277850ff5e",
+            "Value": {
+                "id": "13089a68-2a5e-4c1b-83a8-d8cb08c667da",
+                "resourcePath": "scripts\\scrApproach\\scrApproach.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7481096d-46fc-42f8-9656-f0e9c266857d",
             "Value": {
                 "id": "60a3c2dc-0390-40a3-ac8e-0194fc54133a",
@@ -751,6 +767,14 @@
             }
         },
         {
+            "Key": "7d00adc0-ae47-4f38-9e4a-787887dbedbe",
+            "Value": {
+                "id": "3c67abd9-1d24-4c40-86e4-b5aaf07da370",
+                "resourcePath": "objects\\objHealthPack\\objHealthPack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7d3b581e-b23c-442c-a984-4b480d99217c",
             "Value": {
                 "id": "b6855134-de4b-4a6d-a93e-3d1d1a760b27",
@@ -796,14 +820,6 @@
                 "id": "3bb9a37f-1e69-4671-83e2-5821df9fa948",
                 "resourcePath": "views\\83baa441-a1f3-48c6-ae27-959334211599.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "85d3c96a-bf8c-43e4-8111-373180d8f61b",
-            "Value": {
-                "id": "809132e7-f6c7-4af4-aab3-251951815f82",
-                "resourcePath": "sounds\\sndButtonActivate\\sndButtonActivate.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -939,6 +955,14 @@
             "Value": {
                 "id": "d5e04c4b-ca01-4029-ba38-a569af8fef37",
                 "resourcePath": "sprites\\sprLazer\\sprLazer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "90438d46-b33a-4ad8-9a47-de3d47ea6296",
+            "Value": {
+                "id": "62767342-02f9-48ef-94b0-95e727727afc",
+                "resourcePath": "sprites\\sprHealthPack\\sprHealthPack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1119,6 +1143,14 @@
             }
         },
         {
+            "Key": "b038b8cb-205e-40de-8852-b51c097a648b",
+            "Value": {
+                "id": "81d2a862-e12e-493a-9274-f2a4d90730bd",
+                "resourcePath": "sounds\\sndButtonActivate\\sndButtonActivate.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b0a7de70-91dc-4587-aa56-e4814d954b37",
             "Value": {
                 "id": "f1546f6f-e121-41ee-9d1a-475b383e13c1",
@@ -1204,6 +1236,14 @@
                 "id": "252153d4-5fea-468c-aa6f-8608c1f99d9a",
                 "resourcePath": "views\\b74e9f54-8398-421a-98b5-2e6eb633d582.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b8549f90-bace-488f-9ccd-8581c4d7039c",
+            "Value": {
+                "id": "1bb51b6b-187c-4d54-bf07-52eb064711b5",
+                "resourcePath": "fonts\\fntDeath\\fntDeath.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1487,6 +1527,14 @@
             }
         },
         {
+            "Key": "da9c40b3-079f-4dc0-af83-e44db4d3cfb8",
+            "Value": {
+                "id": "9bab14a2-b3f8-4731-b1af-561927373cac",
+                "resourcePath": "sounds\\sndHealthUp\\sndHealthUp.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "dc7f1afd-1375-4af9-a4f0-5174585180bf",
             "Value": {
                 "id": "87958a81-664b-4d1a-ba98-61f610e1aaa8",
@@ -1691,7 +1739,8 @@
         "35f6eb28-2317-46b0-821a-77375efd3664",
         "c2a9e5af-0ce4-4e80-b1ff-994027feb718",
         "c7477d45-7b76-490e-a58b-bf23ad033c47",
-        "7811bc35-f179-4826-b827-b9d66f6d22e6"
+        "7811bc35-f179-4826-b827-b9d66f6d22e6",
+        "71cdb5e0-8bce-4ebd-aedd-75277850ff5e"
     ],
     "tutorial": ""
 }

@@ -24,18 +24,14 @@ if(place_meeting(x ,y + 1, objCollision))
 	}
 } else vMovement += Gravity;
 
- if(place_meeting(x + 1, y, objPlayer) || place_meeting(x - 1, y, objPlayer)) 
-{
-	scrPlayerKnockBack();
-	scrEnemyKnockBack();
-	hMovement = objPlayer.hMovement;
-}
+
 if(place_meeting(x, y-1, objPlayer)) 
 {
 	EnemyHP = 0;
 	scrPlayerKnockBack();
 	scrEnemyKnockBack();
 }
+
 
  scrGravlift();
 scrHorzCollision();

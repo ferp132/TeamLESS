@@ -1,4 +1,7 @@
 /// @description Sprite and aiming direction
+if (objPlayer.currentState != state.dead)
+{
+	
 dir = point_direction(x, y, mouse_x, mouse_y);
 image_angle = dir;
 
@@ -19,6 +22,8 @@ else if (dir > 90 && dir < 270)
     
     x = objPlayer.x - 4;
     y = objPlayer.y - 8;
+}
+
 }
 
 ///Shooting
@@ -53,7 +58,7 @@ else
 	bulletspeed = 10;
 }
 
-if (mouse_check_button(mb_left) && canShoot && !showInv)
+if (mouse_check_button(mb_left) && canShoot && !showInv && (objPlayer.currentState != state.dead))
 {
 	if (room == RoomMain)
 	{

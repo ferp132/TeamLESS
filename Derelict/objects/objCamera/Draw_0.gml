@@ -5,13 +5,15 @@ yy = camera_get_view_y(view_camera[0]);
 xx2 = camera_get_view_x(view_camera[0])+viewWidth;
 yy2 = yy+viewHeight-510;
 
-draw_set_alpha(0.7);
-draw_set_color(c_black);
-draw_rectangle(xx, yy+130, xx2, yy2, false);
+
 
 // Drawing stats
-if (room == RoomMain)
+if (room == RoomMain) && (objPlayer.currentState != state.dead)
 {
+	draw_set_alpha(0.7);
+	draw_set_color(c_black);
+	draw_rectangle(xx, yy+130, xx2, yy2, false);
+
 	draw_set_alpha(1);
 	draw_set_color(c_white);
 	draw_set_halign(fa_right);

@@ -1,3 +1,3 @@
-objPlayer.phealth -= 10;
+objPlayer.phealth -= 5;
 scrPlayerKnockBack();
 scrEnemyKnockBack();
