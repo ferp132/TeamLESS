@@ -48,8 +48,8 @@ if (mouse_check_button(mb_left) && canShoot && !showInv)
 		if (repeater mod 2 == 0)
 		{
 			repeater++;
-			instance_create_layer(bulletX-((repeater*4) * objPlayer.image_xscale), bulletY-5,0, objPlayerBullet);
-			instance_create_layer(bulletX-((repeater*4) * objPlayer.image_xscale), bulletY+5,0, objPlayerBullet);
+			instance_create_layer(bulletX-((repeater*4) * objPlayer.image_xscale), bulletY-5,"Instances", objPlayerBullet);
+			instance_create_layer(bulletX-((repeater*4) * objPlayer.image_xscale), bulletY+5,"Instances", objPlayerBullet);
 		}
 		if (repeater mod 2 == 1)
 		{
@@ -65,24 +65,24 @@ if (mouse_check_button(mb_left) && canShoot && !showInv)
 	if ((scrEquipModCheck(6)) && (scrEquipModCheck(8)))
 	{
 		offset = -30;
-		instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 		offset = -25;
-		instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 		offset = -15;
-		instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 		offset = -10;
-		instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 		offset = 30;
-		instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 		offset = 25;
-		instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 		offset = 15;
-		instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 		offset = 10;
-		instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 		offset = 0;
-		instance_create_layer(bulletX, bulletY-5,0, objPlayerBullet);
-		instance_create_layer(bulletX, bulletY+5,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY-5,"Instances", objPlayerBullet);
+		instance_create_layer(bulletX, bulletY+5,"Instances", objPlayerBullet);
 		
 		canShoot = false;
 		shootDelay = 0;
@@ -93,15 +93,15 @@ if (mouse_check_button(mb_left) && canShoot && !showInv)
 		{
 			repeater++;
 			offset = -30;
-			instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+			instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 			offset = -15;
-			instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+			instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 			offset = 30;
-			instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+			instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 			offset = 15;
-			instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+			instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 			offset = 0;
-			instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+			instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 		}
 		if (repeater mod 2 == 1)
 		{
@@ -116,8 +116,8 @@ if (mouse_check_button(mb_left) && canShoot && !showInv)
 	}
 	else if (scrEquipModCheck(6))	// Twin shot equipped
 	{
-		instance_create_layer(bulletX, bulletY-5,0, objPlayerBullet);
-		instance_create_layer(bulletX, bulletY+5,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY-5,"Instances", objPlayerBullet);
+		instance_create_layer(bulletX, bulletY+5,"Instances", objPlayerBullet);
 		canShoot = false;
 		shootDelay = 0;
 	}
@@ -126,7 +126,7 @@ if (mouse_check_button(mb_left) && canShoot && !showInv)
 		if (repeater mod 2 == 0)
 		{
 			repeater++;
-			instance_create_layer(bulletX-((repeater*4) * objPlayer.image_xscale), bulletY,0, objPlayerBullet);
+			instance_create_layer(bulletX-((repeater*4) * objPlayer.image_xscale), bulletY,"Instances", objPlayerBullet);
 			
 		}
 		if (repeater mod 2 == 1)
@@ -143,22 +143,22 @@ if (mouse_check_button(mb_left) && canShoot && !showInv)
 	else if (scrEquipModCheck(8))	// Pulse shot equipped
 	{
 		offset = -30;
-		instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 		offset = -15;
-		instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 		offset = 30;
-		instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 		offset = 15;
-		instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 		offset = 0;
-		instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 		
 		canShoot = false;
 		shootDelay = 0;
 	}
 	else
 	{
-		instance_create_layer(bulletX, bulletY,0, objPlayerBullet);
+		instance_create_layer(bulletX, bulletY,"Instances", objPlayerBullet);
 		canShoot = false;
 		shootDelay = 0;
 	}

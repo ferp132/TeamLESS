@@ -265,7 +265,7 @@
         {
             "Key": "2c206955-352e-4502-8066-84a69df73589",
             "Value": {
-                "id": "ec81de29-6166-486e-9f5c-03a5e5735883",
+                "id": "0136fc04-39d4-480b-b0a9-a114a1ac12f8",
                 "resourcePath": "objects\\objPlayerBullet\\objPlayerBullet.yy",
                 "resourceType": "GMObject"
             }
@@ -729,7 +729,7 @@
         {
             "Key": "7f4bab3f-6b52-41a7-8aaf-33fa69dad98d",
             "Value": {
-                "id": "81a01189-fb5c-4434-add7-ce5c54951588",
+                "id": "027da98a-2b93-4d01-8f8d-19f38c3eba96",
                 "resourcePath": "objects\\WalkerNme\\WalkerNme.yy",
                 "resourceType": "GMObject"
             }
@@ -873,7 +873,7 @@
         {
             "Key": "90c4c58f-0834-4f75-8340-010e705e2732",
             "Value": {
-                "id": "07c04ce9-73b0-46ec-9d2e-1aa833e76459",
+                "id": "69e78d90-32ed-41ef-927e-4939e60858d4",
                 "resourcePath": "objects\\demonball\\demonball.yy",
                 "resourceType": "GMObject"
             }
@@ -1265,7 +1265,7 @@
         {
             "Key": "ca54319e-f0d7-4635-a792-176832838b30",
             "Value": {
-                "id": "8d453ee1-e92f-487c-a993-d759a3504cee",
+                "id": "8465cb9b-f6e0-4565-9235-28d9d20b0d7a",
                 "resourcePath": "objects\\Scourge\\Scourge.yy",
                 "resourceType": "GMObject"
             }
@@ -1417,7 +1417,7 @@
         {
             "Key": "e58c91e8-9942-4b31-8ea4-f2fd3abe0609",
             "Value": {
-                "id": "e103fd32-99a3-4881-a154-1220629ab41c",
+                "id": "fd196e53-765b-48fc-8b4e-dd3773fb3a57",
                 "resourcePath": "objects\\GooNME\\GooNME.yy",
                 "resourceType": "GMObject"
             }
@@ -1545,7 +1545,7 @@
         {
             "Key": "ffb24fdb-d8be-435a-8f4a-60be2adf3d2c",
             "Value": {
-                "id": "1b2d95a1-0289-4955-b709-21de87c7eb9a",
+                "id": "c0297bdf-66f4-4abb-bf56-8a17db11ddd4",
                 "resourcePath": "objects\\Demon\\Demon.yy",
                 "resourceType": "GMObject"
             }

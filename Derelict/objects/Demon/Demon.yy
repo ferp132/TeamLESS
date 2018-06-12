@@ -5,7 +5,7 @@
     "name": "Demon",
     "eventList": [
         {
-            "id": "7f90866f-ccb5-4097-a654-0e9043c501e5",
+            "id": "666c5bc0-3777-4252-839a-d7853365cf6f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "ffb24fdb-d8be-435a-8f4a-60be2adf3d2c"
         },
         {
-            "id": "7467c83d-12ef-4887-9425-a12ee8357c5d",
+            "id": "08f34752-03ed-4950-84f6-c42bb74978dc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,17 +25,7 @@
             "m_owner": "ffb24fdb-d8be-435a-8f4a-60be2adf3d2c"
         },
         {
-            "id": "37b62d19-6bda-49d9-a79a-c998e18b1205",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "e43c0b38-708e-40c1-bc0f-0c3d13e992be",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "ffb24fdb-d8be-435a-8f4a-60be2adf3d2c"
-        },
-        {
-            "id": "d9cee190-5e45-4147-a265-406c6efc6728",
+            "id": "b9f1aefd-ed21-4b7f-91bc-2742ee53ff9c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -45,11 +35,11 @@
             "m_owner": "ffb24fdb-d8be-435a-8f4a-60be2adf3d2c"
         },
         {
-            "id": "5fa42db0-cc94-4aa2-aa0b-dd7c4f84c7ec",
+            "id": "480ca023-3667-4b12-9c77-600def7b8c8b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "18c600a5-e827-45eb-bf8e-e03d31936964",
+            "collisionObjectId": "892b079d-768b-4edf-a7f0-8c03f5fe57c7",
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "ffb24fdb-d8be-435a-8f4a-60be2adf3d2c"

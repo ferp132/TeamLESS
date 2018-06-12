@@ -5,7 +5,7 @@
     "name": "Scourge",
     "eventList": [
         {
-            "id": "551f0a61-08be-463e-96f4-d3329c66feee",
+            "id": "de47dbe2-d619-41f1-a253-6976a5c1d6ec",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "ca54319e-f0d7-4635-a792-176832838b30"
         },
         {
-            "id": "d6d0c521-6094-48cb-8a69-36ffe91c5aa7",
+            "id": "88bb53cf-7f97-4d47-ba3f-ec4d44b4358d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "ca54319e-f0d7-4635-a792-176832838b30"
         },
         {
-            "id": "0a1938fa-f74f-4014-a291-d442deef25be",
+            "id": "69358b43-b156-46df-915a-49d3df81b8c1",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

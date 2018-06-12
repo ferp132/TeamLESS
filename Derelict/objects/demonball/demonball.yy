@@ -5,7 +5,7 @@
     "name": "demonball",
     "eventList": [
         {
-            "id": "ebfc09aa-3a33-4f8a-a837-66c310bcc92a",
+            "id": "0be04fa9-0c41-4ddd-b62e-45289a62301e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,17 +15,7 @@
             "m_owner": "90c4c58f-0834-4f75-8340-010e705e2732"
         },
         {
-            "id": "2f8e87dc-400f-48da-8fd7-9a84e3ba1ad5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "18c600a5-e827-45eb-bf8e-e03d31936964",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "90c4c58f-0834-4f75-8340-010e705e2732"
-        },
-        {
-            "id": "190a7546-58a8-40e5-a51e-ac26096c4006",
+            "id": "c4d5b2f4-dbe8-404d-9994-937dc896705d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -35,7 +25,7 @@
             "m_owner": "90c4c58f-0834-4f75-8340-010e705e2732"
         },
         {
-            "id": "8fe6b547-b8b2-4e2c-ab14-8696eba07573",
+            "id": "0ed9ae26-0b7c-460c-aeb7-5e21f74b1538",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -45,7 +35,7 @@
             "m_owner": "90c4c58f-0834-4f75-8340-010e705e2732"
         },
         {
-            "id": "bf0fa513-73fa-46ee-b44b-1ca7bc684f04",
+            "id": "8355f2a8-db45-4847-b1a0-3f3de46c567c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

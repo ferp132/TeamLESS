@@ -46,6 +46,7 @@ if(instance_exists(objPlayer)){
 	detected=true
 	sprite_index=scourge_spots;
 	image_index=1
+	image_angle = point_direction(x, y, objPlayer.x, objPlayer.y);
 
 	if(!collision_line(x,y,objPlayer.x, objPlayer.y,objCollision,false, true))
 	{

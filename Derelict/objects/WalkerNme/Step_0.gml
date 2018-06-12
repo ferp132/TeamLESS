@@ -1,3 +1,5 @@
+hp=hp+0.01;
+
 if(death==false && attacking==false){
 vsp=vsp+grv ;//by default it pushes the character down
 
@@ -69,7 +71,7 @@ dir=sign(objPlayer.x-x);
 
 if(attacking==true){
 
-if(!place_meeting(x+hsp, y, testplayer_obj))	//when not collision with player
+if(!place_meeting(x+hsp, y, objPlayer))	//when not collision with player
 {												//this is for attack cooldown
 
 if(sprite_index==WalkerAttack )
@@ -85,14 +87,14 @@ if(sprite_index==WalkerAttack )
 	}
 }
 
-if(place_meeting(x+hsp, y, testplayer_obj))	//when not collision with player
+if(place_meeting(x+hsp, y, objPlayer))	//when not collision with player
 {												//this is for attack cooldown
 
 
 	image_speed=1;
 	if( image_index>=8)
 	{
-		testplayer_obj.phealth--
+		objPlayer.phealth--
 	}
 }
 
@@ -110,12 +112,27 @@ if(sprite_index==WalkerAttack )
 
 }
 
+if(place_meeting(x+hsp, y, objPlayer))	//when not collision with player
+{												//this is for attack cooldown
 
 
+	image_speed=1;
+	if( image_index>=8)
+	{
+		objPlayer.phealth--
+	
+	}
+}
 
 
 }
 
+if(place_meeting(x, y+5, objPlayerBullet))
+{
+	hp=hp-1
+	flash=1
+	
+}
 
 
 	

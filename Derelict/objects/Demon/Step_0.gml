@@ -49,9 +49,10 @@ if(death==false && attacking==false && detected ==false)
 		{
 			if(distance_to_object(objPlayer)<=200){
 		hsp=sign(objPlayer.x-x)*5;	
-				
-		Demon.x=Demon.x+hsp;
-		
+		vsp=sign(objPlayer.y-y)*5;
+		x=x+hsp;
+		y=y+vsp;
+
 		
 		if(image_index>=6)
 		 {
@@ -68,7 +69,7 @@ if(death==false && attacking==false && detected ==false)
 		}
 	
 if(instance_exists(objPlayer)){
-if(distance_to_point(objPlayer.x, clamp(y,y-20,y+81))<200) && (backtopos==false) && (duration<=0) && (ranged==false)
+if(distance_to_object(objPlayer)<200) && (backtopos==false) && (duration<=0) && (ranged==false)
 {
 		
 		sprite_index=DemonDash;
@@ -76,8 +77,10 @@ if(distance_to_point(objPlayer.x, clamp(y,y-20,y+81))<200) && (backtopos==false)
 		attacking=true;
 	
 		hsp=sign(objPlayer.x-x)*5;	
-	
+		vsp=sign(objPlayer.y-y)*5;
 		x=x+hsp;
+		y=y+vsp;
+		
 		
 		if(distance_to_object(objPlayer)<=20)//play around with these numbers for ai detection and response
 		{

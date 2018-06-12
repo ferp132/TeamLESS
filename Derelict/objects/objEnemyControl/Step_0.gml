@@ -5,19 +5,19 @@ if (constWave)
 }
 
 
-if (instance_exists(objPlayer))
-{
-	x = objPlayer.x;
-	y = objPlayer.y;
-}
+//if (instance_exists(objPlayer))
+//{
+//	x = objPlayer.x;
+//	y = objPlayer.y;
+//}
 randomize();
 //randX = irandom_range(x-viewWidth, x+viewWidth);
 //randY = irandom_range(y-viewHeight, y+viewHeight); 
 randDis = irandom_range(0, 1000);
 randDir = irandom_range(0, 360);
 
-randX = clamp(objPlayer.x+lengthdir_x(400+randDis,randDir),0,room_width);
-randY = clamp(objPlayer.y+lengthdir_y(400+randDis,randDir),0,room_height);
+randX = clamp(x+lengthdir_x(400+randDis,randDir),0,room_width);
+randY = clamp(y+lengthdir_y(400+randDis,randDir),0,room_height);
 chosenEnemy = choose(bat_nme, GooNME, Scourge);
 
 if (canSpawn)
