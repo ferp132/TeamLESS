@@ -30,6 +30,7 @@ else
 {
 	if(MyLiftBox != noone)
 	{
+		
 		instance_destroy(MyLiftBox);
 		MyLiftBox = noone;
 	}

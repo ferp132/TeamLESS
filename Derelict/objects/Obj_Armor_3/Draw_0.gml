@@ -25,6 +25,7 @@ if(mouse_check_button_pressed(mb_left) && objPlayer.coins >= 600)
 		// Minus coins, place item in player inventory
 		objPlayer.coins -= 600;
 		scrModPickup(5);
+		audio_play_sound(sndPurchase, 5, false);
 	}
 }
 
