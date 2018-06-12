@@ -45,7 +45,7 @@ if(hsp!=0)
 
 
 if(instance_exists(objPlayer)){
-if(distance_to_object(objPlayer)<300)		//play around with these numbers for ai detection
+if(distance_to_object(objPlayer)<30)		//play around with these numbers for ai detection
 {
 dir=sign(objPlayer.x-x);	
 	hsp=dir*3.5;			//play around with these numbers for ai detection and response
@@ -56,7 +56,7 @@ dir=sign(objPlayer.x-x);
 		attacking=true;
 		
 	}
-	if(distance_to_object(objPlayer)>301)  //play around with these numbers for ai detection
+	if(distance_to_object(objPlayer)>31)  //play around with these numbers for ai detection
 	{
 		attacking=true;
 	
