@@ -10,7 +10,8 @@ var _w = display_get_gui_width();
 draw_set_halign(fa_right);
 Scr_format_text();
 draw_set_font(fntHud);
-if (room == RoomMain || room == room0)
+draw_set_color(c_white);
+if ((room == RoomMain) || (room == room0))
 {
 	draw_set_alpha(1);
 	draw_self();
