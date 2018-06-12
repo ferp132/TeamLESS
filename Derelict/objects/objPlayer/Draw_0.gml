@@ -9,7 +9,7 @@ var _w = display_get_gui_width();
 // draw coin text
 draw_set_halign(fa_right);
 Scr_format_text();
-if (room == RoomMain)
+if (room == RoomMain || room == room0)
 {
 	draw_set_alpha(1);
 	draw_self();
