@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0bbe0a41-b088-400f-ba38-5e0170350fd4",
+            "Value": {
+                "id": "63b1b0ac-74a2-4e85-a94b-7059170a1271",
+                "resourcePath": "sprites\\MainMenuSprite\\MainMenuSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0c5fd73b-0dba-4f39-8e58-84409f6776c6",
             "Value": {
                 "id": "34126003-695f-4566-b8a5-b6277faf6c83",
@@ -379,6 +387,14 @@
             "Value": {
                 "id": "39f0fabe-11aa-4516-811a-02775946ba07",
                 "resourcePath": "objects\\Space_Ship\\Space_Ship.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3a432837-8422-4673-a8ce-e29616a7cc27",
+            "Value": {
+                "id": "322ce5c3-308a-4faf-9155-f93515f0f470",
+                "resourcePath": "objects\\MainMenu\\MainMenu.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -895,6 +911,14 @@
             }
         },
         {
+            "Key": "8c69c731-3ade-4f98-b356-59b4601fa275",
+            "Value": {
+                "id": "1a5fb66d-80d5-4ca7-9694-7d14c34b2dc7",
+                "resourcePath": "sprites\\WSprite\\WSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8ce19950-d434-4c68-950e-fedd29554e8b",
             "Value": {
                 "id": "7559cabe-47fd-4648-8369-6af432ed9a6d",
@@ -1092,6 +1116,14 @@
                 "id": "e90188d0-a0d3-48fa-934f-24cd397e65a3",
                 "resourcePath": "sprites\\spacebats_death\\spacebats_death.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aac2d5ec-756b-4876-b5e0-678d18ba4ead",
+            "Value": {
+                "id": "980e2cc3-488a-45da-9e0f-eb0d4582f4ac",
+                "resourcePath": "rooms\\ControlRoom\\ControlRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
