@@ -76,10 +76,12 @@ if (showInv)
 				if (item != -1)
 				{
 					scrSlotModRemove(slotX, slotY);
+					audio_play_sound(sndInventoryPick, 10, false);
 				}
 				if (cursorMod != -1)
 				{
 					scrSlotModPickup(slotX, slotY, cursorMod);
+					audio_play_sound(sndInventoryPlace, 10, false);
 				}
 				cursorMod = item;
 			}
