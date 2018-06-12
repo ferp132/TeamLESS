@@ -2,18 +2,19 @@
 // You can write your code in this editor
 // Draw Coin GUI
 draw_set_alpha(1);
-draw_set_font(Font_1);
+
 
 var _w = display_get_gui_width();
 
 // draw coin text
 draw_set_halign(fa_right);
 Scr_format_text();
+draw_set_font(fntHud);
 if (room == RoomMain || room == room0)
 {
 	draw_set_alpha(1);
 	draw_self();
-	draw_text(camera_get_view_x(view_camera[0])+viewWidth - 30,camera_get_view_y(view_camera[0]) + 40,coins);
+	draw_text(camera_get_view_x(view_camera[0])+viewWidth - 40,camera_get_view_y(view_camera[0]) + 150,coins);
 }
 if (room == Room_Menu)
 {
