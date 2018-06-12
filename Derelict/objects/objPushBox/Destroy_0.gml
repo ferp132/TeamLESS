@@ -34,3 +34,5 @@ for (i = 0; i < 4; i++)
 	Spin		= random_range(0, 20);
 }
 }
+
+audio_play_sound(sndBoxBreak,0,0);
