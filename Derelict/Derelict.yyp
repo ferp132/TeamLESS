@@ -1031,14 +1031,6 @@
             }
         },
         {
-            "Key": "922653d4-bda7-4709-b7b8-542308fc6b3e",
-            "Value": {
-                "id": "35a34585-a860-4e30-9442-02c3177f30de",
-                "resourcePath": "objects\\bat_nme\\bat_nme.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "942794e8-e92b-44ea-8437-58ad7cb63389",
             "Value": {
                 "id": "277bcb5e-4790-40b9-990f-581c814b770e",
@@ -1607,14 +1599,6 @@
             }
         },
         {
-            "Key": "e58c91e8-9942-4b31-8ea4-f2fd3abe0609",
-            "Value": {
-                "id": "fd196e53-765b-48fc-8b4e-dd3773fb3a57",
-                "resourcePath": "objects\\GooNME\\GooNME.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "e5fedd3f-e48b-4e3d-a94f-6cb4bef5b4bf",
             "Value": {
                 "id": "25817c8d-3353-4169-a763-31abe663bc48",
@@ -1667,6 +1651,14 @@
             "Value": {
                 "id": "1d1082d8-a5f2-47fa-934a-a836052748dd",
                 "resourcePath": "objects\\objEquipInventorySlot\\objEquipInventorySlot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ef832664-c3c0-4023-a394-173346b963c3",
+            "Value": {
+                "id": "d0017d15-4522-4b25-992d-09636a4139bd",
+                "resourcePath": "objects\\objTextPickup\\objTextPickup.yy",
                 "resourceType": "GMObject"
             }
         },

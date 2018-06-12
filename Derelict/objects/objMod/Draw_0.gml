@@ -9,4 +9,5 @@ draw_set_font(fntHud);
 if (collision_rectangle(x-20, y-20, x+20, y+20, objPlayer, false, true))
 {
     draw_text(x, scrWave(y-65, y-80, 4, 0)," [Press F to pick up]");
+	
 }
