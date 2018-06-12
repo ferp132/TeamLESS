@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "7d00adc0-ae47-4f38-9e4a-787887dbedbe",
+            "Value": {
+                "id": "3c67abd9-1d24-4c40-86e4-b5aaf07da370",
+                "resourcePath": "objects\\objHealthPack\\objHealthPack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7d3b581e-b23c-442c-a984-4b480d99217c",
             "Value": {
                 "id": "b6855134-de4b-4a6d-a93e-3d1d1a760b27",
@@ -780,14 +788,6 @@
                 "id": "3bb9a37f-1e69-4671-83e2-5821df9fa948",
                 "resourcePath": "views\\83baa441-a1f3-48c6-ae27-959334211599.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "85d3c96a-bf8c-43e4-8111-373180d8f61b",
-            "Value": {
-                "id": "809132e7-f6c7-4af4-aab3-251951815f82",
-                "resourcePath": "sounds\\sndButtonActivate\\sndButtonActivate.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -915,6 +915,14 @@
             "Value": {
                 "id": "d5e04c4b-ca01-4029-ba38-a569af8fef37",
                 "resourcePath": "sprites\\sprLazer\\sprLazer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "90438d46-b33a-4ad8-9a47-de3d47ea6296",
+            "Value": {
+                "id": "62767342-02f9-48ef-94b0-95e727727afc",
+                "resourcePath": "sprites\\sprHealthPack\\sprHealthPack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1092,6 +1100,14 @@
                 "id": "0dffdc89-b19a-4266-a6da-eb85c10ddf39",
                 "resourcePath": "objects\\objBoxDropper\\objBoxDropper.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b038b8cb-205e-40de-8852-b51c097a648b",
+            "Value": {
+                "id": "81d2a862-e12e-493a-9274-f2a4d90730bd",
+                "resourcePath": "sounds\\sndButtonActivate\\sndButtonActivate.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1460,6 +1476,14 @@
                 "id": "4354d46d-0b5f-4d8c-8693-6b445109e2d4",
                 "resourcePath": "scripts\\scrSlotModPickup\\scrSlotModPickup.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "da9c40b3-079f-4dc0-af83-e44db4d3cfb8",
+            "Value": {
+                "id": "9bab14a2-b3f8-4731-b1af-561927373cac",
+                "resourcePath": "sounds\\sndHealthUp\\sndHealthUp.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -1,8 +1,8 @@
 {
-    "id": "b038b8cb-205e-40de-8852-b51c097a648b",
+    "id": "da9c40b3-079f-4dc0-af83-e44db4d3cfb8",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sndButtonActivate",
+    "name": "sndHealthUp",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.3
+    "volume": 1
 }

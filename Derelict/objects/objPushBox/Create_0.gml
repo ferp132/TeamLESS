@@ -1,4 +1,4 @@
-Gravity			= 1;
+Gravity			= 0.5;
 PushSpeed		= 3;
 hMovement		= 0;
 vMovement		= 0;

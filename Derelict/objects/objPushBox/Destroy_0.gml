@@ -1,12 +1,16 @@
-SpawnSlime = irandom_range(0,10);
+Spawn = irandom_range(0,100);
 
-if(SpawnSlime > 8) 
+if(Spawn >= 95) 
 {
-	with(instance_create_layer(x,y,"Instances", objGoo))
+	with(instance_create_layer(x+32,y+32,"Instances", objGoo))
 {
-//	hMovement	= random_range(-50, 50);
-//	vMovement	= random_range(-10, -25);
+	hMovement	= random_range(-10, 10);
+	vMovement	= random_range(-10, -25);
 }
+}
+else if (Spawn <= 15)
+{
+	instance_create_layer(x+32,y+32,"Instances", objHealthPack);
 }
 
 if(Spawner != 0) 
