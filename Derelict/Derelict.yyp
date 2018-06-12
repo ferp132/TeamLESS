@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "85d3c96a-bf8c-43e4-8111-373180d8f61b",
+            "Value": {
+                "id": "809132e7-f6c7-4af4-aab3-251951815f82",
+                "resourcePath": "sounds\\sndButtonActivate\\sndButtonActivate.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8678fc6e-278a-483b-815c-9bf6be9d6673",
             "Value": {
                 "id": "065b6a3f-f694-4c39-8b21-9379b575f5da",
@@ -1319,6 +1327,14 @@
             }
         },
         {
+            "Key": "d2a1a2fe-d025-47e0-af56-3405512cd310",
+            "Value": {
+                "id": "61328f05-09aa-41f0-8a11-740e86aa7474",
+                "resourcePath": "sounds\\sndWeaponFire\\sndWeaponFire.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d3cd3f1a-668e-4b92-a8d0-7d5ccccd4fc5",
             "Value": {
                 "id": "cef875b9-366b-4107-b352-6918c8235a31",
@@ -1524,6 +1540,14 @@
                 "id": "cbd5c67e-e9ef-4751-b084-87e1645ce087",
                 "resourcePath": "views\\f52fe3c9-1304-4529-a8fb-a59fe842f062.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f6bf4438-8552-4e49-bb07-5d539632a68e",
+            "Value": {
+                "id": "447ce482-e0c6-45bc-8509-6d4feda3d7eb",
+                "resourcePath": "sounds\\sndPurchase\\sndPurchase.yy",
+                "resourceType": "GMSound"
             }
         },
         {

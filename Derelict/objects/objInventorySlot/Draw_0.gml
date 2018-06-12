@@ -68,6 +68,7 @@ if (showInv)
 					{
 						objPlayer.coins = objPlayer.coins + 185;
 					}
+					audio_play_sound(sndPurchase, 5, false);
 				}
 			}
 			else
