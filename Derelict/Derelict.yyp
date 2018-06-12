@@ -1655,6 +1655,14 @@
             }
         },
         {
+            "Key": "ef832664-c3c0-4023-a394-173346b963c3",
+            "Value": {
+                "id": "d0017d15-4522-4b25-992d-09636a4139bd",
+                "resourcePath": "objects\\objTextPickup\\objTextPickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f173cdbc-591a-42c3-bc8f-4d58b4faf3e5",
             "Value": {
                 "id": "98d03339-f2fb-4a96-8314-63a08980c39d",
