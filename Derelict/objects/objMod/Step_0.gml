@@ -3,7 +3,7 @@
 pickup = keyboard_check_pressed(ord("F"));
 
 // Picking up the mod
-if (place_meeting(x, y, objPlayer))
+if (collision_rectangle(x-20, y-20, x+20, y+20, objPlayer, false, true))
 {
 	if (pickup)
 	{

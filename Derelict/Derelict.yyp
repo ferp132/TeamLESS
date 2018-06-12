@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "2f118748-e7b2-495f-8e9f-a3a1b49c87b0",
+            "Value": {
+                "id": "a9065f74-a7eb-49e1-9b7c-71f74d8c88c0",
+                "resourcePath": "sounds\\sndInventoryPlace\\sndInventoryPlace.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2f5fb32d-05d6-416c-9758-3635f4f44ac2",
             "Value": {
                 "id": "03b4ba12-6533-465f-905b-6d8d3eefc8c9",
@@ -684,6 +692,14 @@
                 "id": "04b09dbf-71cd-4163-85d6-0b480eee2181",
                 "resourcePath": "sprites\\Spr_Button\\Spr_Button.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7811bc35-f179-4826-b827-b9d66f6d22e6",
+            "Value": {
+                "id": "b210169d-65d0-4a43-bd70-739226f0645f",
+                "resourcePath": "scripts\\scrWave\\scrWave.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1111,6 +1127,14 @@
             }
         },
         {
+            "Key": "b3477813-2e7e-451f-8874-7cfaadbccddd",
+            "Value": {
+                "id": "8cbb1f72-1b4e-4215-8a9b-b7438c42c02a",
+                "resourcePath": "sounds\\sndInventoryPick\\sndInventoryPick.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b3b202ef-7a4f-4659-b1b3-b79d17bccd5a",
             "Value": {
                 "id": "80cb0e8d-28f0-4e1f-84a3-cd7b2e3cbca8",
@@ -1196,6 +1220,14 @@
                 "id": "361dcfab-7919-46af-919a-d9b071d3c8c0",
                 "resourcePath": "objects\\objPlayerGun\\objPlayerGun.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bc63824d-64fd-4177-a0d8-e7faed815cd8",
+            "Value": {
+                "id": "2d730da1-fa7a-43db-81b9-8e75469cd1f5",
+                "resourcePath": "sounds\\sndWeaponFireLaser\\sndWeaponFireLaser.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1642,7 +1674,8 @@
         "b1162453-5676-4098-906b-0208b74db8b5",
         "35f6eb28-2317-46b0-821a-77375efd3664",
         "c2a9e5af-0ce4-4e80-b1ff-994027feb718",
-        "c7477d45-7b76-490e-a58b-bf23ad033c47"
+        "c7477d45-7b76-490e-a58b-bf23ad033c47",
+        "7811bc35-f179-4826-b827-b9d66f6d22e6"
     ],
     "tutorial": ""
 }

@@ -57,7 +57,7 @@ if (mouse_check_button(mb_left) && canShoot && !showInv)
 {
 	if (room == RoomMain)
 	{
-		audio_play_sound(sndWeaponFire, 10, false);
+		audio_play_sound(sndWeaponFireLaser, 10, false);
 	}
 	if ((scrEquipModCheck(6)) && (scrEquipModCheck(7)))
 	{
