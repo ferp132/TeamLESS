@@ -10,3 +10,10 @@ enum State
 
 randomize();
 spawnMod = irandom_range(0, 101);
+
+//Variables For enemies
+EnemyHP		= 10;
+vMovement	= 0;
+hMovement	= 0;
+hSpeed		=5;
+vSpeed		= -10;
