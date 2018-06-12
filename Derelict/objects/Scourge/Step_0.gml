@@ -41,17 +41,18 @@ vsp=-vsp
 
 
 if(instance_exists(objPlayer)){
- if(distance_to_object(objPlayer)<100)
+ if(distance_to_object(objPlayer)<50)
 {
 	detected=true
 	sprite_index=scourge_spots;
 	image_index=1
-	image_angle = point_direction(x, y, objPlayer.x, objPlayer.y);
+	
 
 	if(!collision_line(x,y,objPlayer.x, objPlayer.y,objCollision,false, true))
 	{
-		move_towards_point(objPlayer.x,objPlayer.y, 20);
-		
+		image_angle = point_direction(x, y, objPlayer.x, objPlayer.y);
+		move_towards_point(objPlayer.x,objPlayer.y, 10);
+		image_angle = point_direction(x, y, objPlayer.x, objPlayer.y);
 	if(sign(objPlayer.x-x)==1)
 	{
 	image_xscale=sign(hsp);
@@ -84,7 +85,7 @@ if(instance_exists(objPlayer)){
 	hp=0
 	
 	sprite_index=scourge_dead;
-	objPlayer.phealth--;	
+	objPlayer.phealth=objPlayer.phealth -20;	
 	
 	 
  }

@@ -18,7 +18,7 @@ randDir = irandom_range(0, 360);
 
 randX = clamp(x+lengthdir_x(400+randDis,randDir),0,room_width);
 randY = clamp(y+lengthdir_y(400+randDis,randDir),0,room_height);
-chosenEnemy = choose(bat_nme, GooNME, Scourge);
+chosenEnemy = choose(objBat,  Scourge);
 
 if (canSpawn)
 {
