@@ -68,4 +68,5 @@ if (phealth <= 0)
 {
 	room_restart();
 }
-if(keyboard_check(ord("R"))) room_restart();
+
+if(keyboard_check(ord("R"))) game_restart();

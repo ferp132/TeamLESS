@@ -10,3 +10,4 @@ bossWave = false;
 
 // After miniboss has been spawned and killed
 constWave = false;
+
