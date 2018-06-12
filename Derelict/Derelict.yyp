@@ -815,6 +815,14 @@
             }
         },
         {
+            "Key": "8ac97d39-4b92-4ab0-a772-e2ef55a0e3eb",
+            "Value": {
+                "id": "0b00afac-a8cd-4d3c-b67e-975ebba5794f",
+                "resourcePath": "fonts\\fntHud\\fntHud.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "8ada40d2-4ee9-4474-ab70-743824644b3b",
             "Value": {
                 "id": "ed6fcd71-c682-4957-b840-6802d1d28d48",

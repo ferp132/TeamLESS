@@ -30,15 +30,27 @@ if (scrEquipModCheck(9))	// Player has firerate upgrade equipped
 {
 	firerate = 23;
 }
+else
+{
+	firerate = 46;
+}
 
 if (scrEquipModCheck(10))	// Player has damage upgrade equipped
 {
 	damage = 30;
 }
+else
+{
+	damage = 10;
+}
 
 if (scrEquipModCheck(11))	// Player has bullet speed upgrade equipped
 {
 	bulletSpeed = 15;
+}
+else
+{
+	bulletspeed = 10;
 }
 
 if (mouse_check_button(mb_left) && canShoot && !showInv)
