@@ -29,7 +29,10 @@ enum state {
     normal,
     run,
     jump,
+	dead
 }
 currentState = state.normal;
 
 coins = 500;
+
+deathAlpha = 0;

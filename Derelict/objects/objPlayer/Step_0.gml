@@ -1,7 +1,9 @@
-if (phealth == 0)
+//if (phealth == 0)
+//{
+//	room_restart();
+//}
+if (currentState != state.dead)
 {
-	room_restart();
-}
 
 scrGetInput();
 OnSlime = place_meeting(x, y+1, objSlime);
@@ -38,11 +40,15 @@ else
 //-----GravLift
 scrGravlift();
 
+}
+
 //-----Apply Movement  & Collision Checks
 scrHorzCollision();
 x += hMovement;
 scrVertCollision();
 y += vMovement;
+
+
 
 if(ControlsDisabled)
 {
@@ -58,15 +64,22 @@ if(ControlsDisabled)
 switch (currentState)
 {
     case state.normal:
-    scrPlayerStateNormal();
+		scrPlayerStateNormal();
     break;
+	
+	case state.dead:
+		sprite_index = sprPlayerDead;
+		hMovement = scrApproach(hMovement, 0, 0.15);
+		vMovement = scrApproach(vMovement, 5, 0.05);
+	break;
 }
 
 
 
 if (phealth <= 0)
 {
-	room_restart();
+	//room_restart();
+	currentState = state.dead;
 }
 
-if(keyboard_check(ord("R"))) game_restart();
+if(keyboard_check(ord("R"))) phealth = 0;

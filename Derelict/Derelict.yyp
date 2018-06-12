@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "24503832-b758-4138-bf89-e47ae72b2792",
+            "Value": {
+                "id": "93894fc1-6426-4a39-9881-6aabf1399ff4",
+                "resourcePath": "sprites\\sprPlayerDead\\sprPlayerDead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "24e7ddea-5f1d-41a3-8cb6-23e62524a8b7",
             "Value": {
                 "id": "cb481f81-e780-4d49-a6f3-476af23240d7",
@@ -652,6 +660,14 @@
                 "id": "8c494351-165a-4218-8309-ffe3141615e1",
                 "resourcePath": "objects\\Quit_Game\\Quit_Game.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "71cdb5e0-8bce-4ebd-aedd-75277850ff5e",
+            "Value": {
+                "id": "13089a68-2a5e-4c1b-83a8-d8cb08c667da",
+                "resourcePath": "scripts\\scrApproach\\scrApproach.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1183,6 +1199,14 @@
             }
         },
         {
+            "Key": "b8549f90-bace-488f-9ccd-8581c4d7039c",
+            "Value": {
+                "id": "1bb51b6b-187c-4d54-bf07-52eb064711b5",
+                "resourcePath": "fonts\\fntDeath\\fntDeath.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "b8c16b97-6992-4991-8357-96c3d7d92cc7",
             "Value": {
                 "id": "a6f6ac90-7c49-46ac-820e-60cc9e83273b",
@@ -1675,7 +1699,8 @@
         "35f6eb28-2317-46b0-821a-77375efd3664",
         "c2a9e5af-0ce4-4e80-b1ff-994027feb718",
         "c7477d45-7b76-490e-a58b-bf23ad033c47",
-        "7811bc35-f179-4826-b827-b9d66f6d22e6"
+        "7811bc35-f179-4826-b827-b9d66f6d22e6",
+        "71cdb5e0-8bce-4ebd-aedd-75277850ff5e"
     ],
     "tutorial": ""
 }
