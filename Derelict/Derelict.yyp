@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "043fcc92-f8a3-42c8-b2c0-2efa6e7052d9",
+            "Value": {
+                "id": "51440451-6723-45dd-b622-50a9f6695e55",
+                "resourcePath": "sprites\\Quitgame\\Quitgame.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "045e953f-61c5-4dab-9320-b3d1d68aa1dc",
             "Value": {
                 "id": "f2ac9fe7-d08c-4d60-a192-5d69855b7cec",
@@ -327,11 +335,27 @@
             }
         },
         {
+            "Key": "3962cefb-b75b-4187-adb4-13411fe671bf",
+            "Value": {
+                "id": "b6702102-98d7-4a04-9518-b598a8ece56c",
+                "resourcePath": "objects\\Play_Game\\Play_Game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "399787f9-5907-4dfc-af7c-28c553c1fb0e",
             "Value": {
                 "id": "7cea77bb-2b32-46ba-804b-8e50171db8ba",
                 "resourcePath": "views\\399787f9-5907-4dfc-af7c-28c553c1fb0e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "39b61aab-ca49-4a9e-bad5-ad347f3669c7",
+            "Value": {
+                "id": "39f0fabe-11aa-4516-811a-02775946ba07",
+                "resourcePath": "objects\\Space_Ship\\Space_Ship.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -407,6 +431,14 @@
             }
         },
         {
+            "Key": "4748e459-466f-4e94-bdcc-f5e1e1601025",
+            "Value": {
+                "id": "d87c15f2-616a-40e0-80da-c752e450df77",
+                "resourcePath": "objects\\Controls_Game\\Controls_Game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "47c741ba-de48-40fc-9a93-7fac06fcf6f2",
             "Value": {
                 "id": "f69d2d61-9788-40e1-91cc-b84203ab9e57",
@@ -439,10 +471,26 @@
             }
         },
         {
+            "Key": "4bd117c3-a468-4ae3-a0c7-b6c7671e64f6",
+            "Value": {
+                "id": "bef0d915-98c2-4c61-9f29-f501ad783225",
+                "resourcePath": "sprites\\Justsky\\Justsky.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "52752895-e789-412d-b078-6a3e7cbd46eb",
             "Value": {
                 "id": "b264af96-9b6b-48b5-98b1-333283afa00c",
                 "resourcePath": "sprites\\Spr_Coins\\Spr_Coins.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "52fb168a-46e5-4c93-b55b-22da2a0867ac",
+            "Value": {
+                "id": "5ff310b9-8eab-4cf8-a209-79048d54ab66",
+                "resourcePath": "sprites\\Moon\\Moon.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -503,6 +551,14 @@
             }
         },
         {
+            "Key": "615c7159-6979-4ce1-b38c-e72f47f340f3",
+            "Value": {
+                "id": "2da7040c-f0e8-4cb1-a2bc-83ce55128215",
+                "resourcePath": "sprites\\Controls\\Controls.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "64c5111e-c76b-4c4c-8da3-115c91541899",
             "Value": {
                 "id": "4c349643-81d7-42c0-af2f-6067182a59ed",
@@ -524,6 +580,14 @@
                 "id": "ded27620-66e2-420e-9770-4eb954856123",
                 "resourcePath": "scripts\\scrModRemove\\scrModRemove.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6b13a582-008b-4ce4-a08d-9a8b98e398cf",
+            "Value": {
+                "id": "7fcd7bd9-f05c-4709-ac2d-af42e66cf283",
+                "resourcePath": "sprites\\menuimage2\\menuimage2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -564,6 +628,14 @@
                 "id": "01a019d3-da3d-4fcb-bc2a-627537402e0c",
                 "resourcePath": "sprites\\WalkerIdle\\WalkerIdle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6f20a3a5-58ba-42f6-9a38-d8e865a99c88",
+            "Value": {
+                "id": "8c494351-165a-4218-8309-ffe3141615e1",
+                "resourcePath": "objects\\Quit_Game\\Quit_Game.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -991,6 +1063,14 @@
             }
         },
         {
+            "Key": "b11ca5ab-07e0-430c-b7b4-4e38efa74e5d",
+            "Value": {
+                "id": "19387193-e673-4ddd-93b6-6865cd7af598",
+                "resourcePath": "sprites\\Spaceship\\Spaceship.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b1b86528-0819-46f9-835d-696bf961dd1a",
             "Value": {
                 "id": "73d32a76-e18d-4640-8888-6d9fb41737c1",
@@ -1012,6 +1092,14 @@
                 "id": "c570a973-5590-4f3c-aeaf-c8a794686d6d",
                 "resourcePath": "objects\\objCursorMod\\objCursorMod.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b486cbc7-0821-4f32-a292-dc6014fc80cd",
+            "Value": {
+                "id": "c9e65793-bf04-400d-a374-859435ec32a2",
+                "resourcePath": "rooms\\menu\\menu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1051,6 +1139,14 @@
             "Value": {
                 "id": "c8e6d43c-0c09-4a82-a180-88ae1065f1f1",
                 "resourcePath": "sprites\\sprBoxDropper\\sprBoxDropper.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b954cb50-5abb-44e3-bc18-b748fbfe8405",
+            "Value": {
+                "id": "2ff1b4d7-c8b6-44f1-bd21-0574c72b027a",
+                "resourcePath": "sprites\\playgame\\playgame.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1300,6 +1396,14 @@
                 "id": "760079fe-0c26-4561-84d2-3b84e04bc5b9",
                 "resourcePath": "objects\\Obj_Coins\\Obj_Coins.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e3e85247-e10b-4d16-91b9-9502cc3e6b4b",
+            "Value": {
+                "id": "5e432e0a-fb95-4350-aaf0-cec154eb92d0",
+                "resourcePath": "sprites\\MainMenutitle\\MainMenutitle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
