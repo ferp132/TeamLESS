@@ -11,7 +11,7 @@ enum modType {
 }
 
 randomize();
-typeMod = choose(modType.dashh, modType.dblDash, modType.energyShield, modType.pulseblast, modType.repeatershot, modType.twinblast);
+typeMod = choose(modType.energyShield, modType.pulseblast, modType.repeatershot, modType.twinblast);
 
 image_index = typeMod;
 
