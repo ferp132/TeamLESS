@@ -8,6 +8,4 @@
     shader_reset();           //reset the shader after drawing
     }
     
-
-draw_rectangle(x - DetRange, y - DetRange, x+DetRange, y+DetRange, true);
 draw_text(x, y, string(EnemyHP));

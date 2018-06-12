@@ -7,7 +7,7 @@ death=false;
 bothhandv=false
 
 
-EnemyHP		= 10;
+EnemyHP		= 25;
 vMovement	= 0;
 hMovement	= 0;
 hSpeed		= 10;
