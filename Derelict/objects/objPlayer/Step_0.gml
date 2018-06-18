@@ -82,4 +82,4 @@ if (phealth <= 0)
 	currentState = state.dead;
 }
 
-if(keyboard_check(ord("R"))) phealth = 0;
+// if(keyboard_check(ord("R"))) phealth = 0;
