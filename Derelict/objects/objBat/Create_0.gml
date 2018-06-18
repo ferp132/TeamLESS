@@ -1,7 +1,7 @@
 event_inherited();
 randomize();
 
-EnemyHP		= 10;
+EnemyHP		= 70;
 vMovement	= 0;
 hMovement	= 0;
 hSpeed		= 10;

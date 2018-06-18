@@ -3,7 +3,10 @@
 	
 with(other)	//IMPORTANT TO LINK PLAYER HEALTH
 {
-	phealth--;		
+	if (objModStats.shieldActive != 1)
+	{
+		phealth -= 15;		
+	}
 	
 }
 

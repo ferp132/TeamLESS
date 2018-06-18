@@ -8,4 +8,4 @@
     shader_reset();           //reset the shader after drawing
     }
     
-draw_text(x, y, string(EnemyHP));
+//draw_text(x, y, string(EnemyHP));
